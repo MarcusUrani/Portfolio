@@ -1,0 +1,47 @@
+.about__info {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 5.65rem 7rem 0 7rem;
+}
+
+.about__photo {
+    border-color: var(--green);
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 4px 4px 10px 0px rgba(94, 94, 94, 0.7);
+    width: 20%;
+}
+
+.about__name {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.about__role {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+}
+
+.about__contain {
+    align-items: flex-end;
+    display: flex;
+}
+
+.about__github {
+    color: var(--black);
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: .5rem;
+    text-decoration: none;
+}
+
+.about__github:hover {
+    color: var(--dark-green);
+    transition: all ease-in .3s;
+}

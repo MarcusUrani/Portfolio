@@ -1,0 +1,40 @@
+.header {
+    align-items: center;
+    background: var(--black);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+    padding: 1rem 7rem;
+    position: fixed;
+    width: 83%;
+}
+
+.header__container {
+    align-items: center;
+    display: flex;
+}
+
+.header__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 1.2rem;
+}
+
+.header__links {
+    align-items: center;
+    display: flex;
+    gap: 1.3rem
+}
+
+.header__link {
+    color: var(--white);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header__link:hover {
+    color: var(--green);
+    text-decoration: underline;
+    transition: all ease .5s;
+}

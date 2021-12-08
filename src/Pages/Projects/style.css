@@ -1,0 +1,80 @@
+.projects {
+    font-family: "Poppins", sans-serif;
+    padding: 8rem 7rem 4rem 7rem;
+    text-align: center;
+}
+
+.projects h1 {
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+
+.projects__container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    width: 100%;
+}
+
+.card__img {
+    padding-right: 3rem;
+    width: 55%;
+}
+
+.card__img img {
+    border-radius: .7rem;
+    width: 100%;
+}
+
+.projects__card {
+    align-items: center;
+    background: var(--black-background);
+    border-radius: 1.2rem;
+    border-width: 7px;
+    border-style: solid;
+    border-color: var(--dark-green);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.card__texts {
+    width: 45%;
+}
+
+.card__tech {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 2rem 0;
+}
+
+.card__title {
+    font-size: 1.6rem;
+    margin: 2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.card__description {
+    font-size: 1.1rem;
+    font-weight: 300;
+    letter-spacing: .03rem;
+    line-height: 1.3rem;
+    margin: 2rem 0;
+}
+
+.card__link {
+    color: var(--dark-green);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card__link:hover {
+    color: var(--green);
+    text-decoration: underline;
+    transition: all ease .5s;
+}
