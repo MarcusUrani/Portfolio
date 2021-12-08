@@ -1,7 +1,8 @@
 .about__info {
+    align-items: center;
     color: var(--black);
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 3rem;
     padding: 5.65rem 7rem 0 7rem;
 }
@@ -44,4 +45,24 @@
 .about__github:hover {
     color: var(--dark-green);
     transition: all ease-in .3s;
+}
+
+@media(max-width: 720px) {
+
+    .about__info {
+        justify-content: center;
+        padding-top: 8rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .about__photo {
+        width: 50%;
+    }
+}
+
+@media(min-width: 1080px) {
+    .about__photo {
+        width: 20%;
+    }
 }

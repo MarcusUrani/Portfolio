@@ -35,3 +35,11 @@
     background: var(--green);
     transition: all ease .5s;
 }
+
+@media(max-width: 680px) {
+    .contact{
+        height: 93.7vh;
+        margin: 0 25%;
+        width: 50%;
+    }
+}

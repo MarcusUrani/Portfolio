@@ -29,12 +29,12 @@
 
 .projects__card {
     align-items: center;
-    background: var(--black-background);
+    /* background: var(--black-background); */
     border-radius: 1.2rem;
     border-width: 7px;
     border-style: solid;
     border-color: var(--dark-green);
-    color: var(--white);
+    /* color: var(--white); */
     display: flex;
     justify-content: center;
     text-align: left;
@@ -77,4 +77,26 @@
     color: var(--green);
     text-decoration: underline;
     transition: all ease .5s;
+}
+
+@media (max-width: 1060px) {
+    .projects {
+        padding-right: .7rem;
+        padding-left: .7rem;
+    }
+
+    .projects__card {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 1rem .5rem 1rem .5rem;
+    }
+
+    .card__img {
+        padding: 0;
+        width: 80%;
+    }
+    
+    .card__texts {
+        width: 80%;
+    }
 }

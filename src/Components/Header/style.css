@@ -3,6 +3,7 @@
     background: var(--black);
     color: var(--white);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     font-family: "Poppins", sans-serif;
     padding: 1rem 7rem;
@@ -37,4 +38,24 @@
     color: var(--green);
     text-decoration: underline;
     transition: all ease .5s;
+}
+
+@media(max-width: 680px) {
+    .header {
+        justify-content: center;
+        padding: 1rem 2rem;
+        width: 100%;
+    }
+
+    .header__title {
+        margin-right: 5rem;
+        width: 100%;
+    }
+    
+    .header__links {
+        justify-content: center;
+        margin-top: 1rem;
+        margin-right: 3rem;
+        width: 100%;
+    }
 }
