@@ -6,9 +6,9 @@ const AboutMe = () => {
     <article className="about__me">
       <h2 className="title">Sobre mim</h2>
       <p className="about__me__text">
-        Tenho domínio da língua inglesa. Com muito foco e curiosidade comecei a
-        aprender as ferramentas que mais me identifiquei, decidindo assim, focar
-        em desenvolvimento web, mais precisamente em front-end.
+        Com muito foco e curiosidade comecei a aprender as ferramentas que mais
+        me identifiquei, decidindo assim, focar em desenvolvimento web, mais
+        precisamente em front-end. Tenho inglês intermediário.
       </p>
       <p className="about__me__text">
         Sempre fui apaixonado por tecnologia e tinha curiosidade por saber mais

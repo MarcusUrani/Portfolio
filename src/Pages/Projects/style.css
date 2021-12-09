@@ -34,6 +34,7 @@
     border-width: 7px;
     border-style: solid;
     border-color: var(--dark-green);
+    box-shadow: 3px 3px 15px 4px rgba(0,173,58,0.3);
     /* color: var(--white); */
     display: flex;
     justify-content: center;
