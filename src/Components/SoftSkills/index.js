@@ -8,8 +8,11 @@ const SoftSkills = () => {
         <li className="about__item">Apreciação de desafios</li>
         <li className="about__item">Boa capacidade de trabalhar em equipe</li>
         <li className="about__item">Comunicação eficiente</li>
-        <li className="about__item">Facilidade de lidar e aprender com feedbacks</li>
+        <li className="about__item">
+          Facilidade de lidar e aprender com feedbacks
+        </li>
         <li className="about__item">Gerenciamento de tempo</li>
+        <li className="about__item">Inglês avançado</li>
         <li className="about__item">Organização</li>
         <li className="about__item">Positividade</li>
       </ul>

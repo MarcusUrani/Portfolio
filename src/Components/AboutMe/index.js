@@ -8,7 +8,7 @@ const AboutMe = () => {
       <p className="about__me__text">
         Com muito foco e curiosidade comecei a aprender as ferramentas que mais
         me identifiquei, decidindo assim, focar em desenvolvimento web, mais
-        precisamente em front-end. Tenho inglês intermediário.
+        precisamente em front-end.
       </p>
       <p className="about__me__text">
         Sempre fui apaixonado por tecnologia e tinha curiosidade por saber mais
