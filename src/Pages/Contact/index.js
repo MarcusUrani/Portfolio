@@ -1,17 +1,23 @@
 import React from "react";
 import "./style.css";
-import LinkedIn from "../../Components/LinkedIn";
-import Gmail from "../../Components/Gmail";
-import Instagram from "../../Components/Instagram";
+import Contacts from "./contact.json";
 
 const Contact = () => {
   return (
     <main className="contact">
       <section className="contact__container">
         <h3 className="title">Contato</h3>
-        <LinkedIn />
-        <Gmail />
-        <Instagram />
+        {Contacts.map((contact) => (
+          <a
+            className="contact__item"
+            href={contact.name}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={`/assets/${contact.image}.png`} />
+            {contact.name}
+          </a>
+        ))}
       </section>
     </main>
   );

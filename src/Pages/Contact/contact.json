@@ -1,0 +1,17 @@
+[
+  {
+    "name": "LinkedIn",
+    "href": "https://www.linkedin.com/in/marcusurani/",
+    "image": "linkedin"
+  },
+  {
+    "name": "Enviar email",
+    "href": "mailto:marcus.urani20@gmail.com",
+    "image": "gmail"
+  },
+  {
+    "name": "Instagram",
+    "href": "https://www.instagram.com/marcusvgu/",
+    "image": "instagram"
+  }
+]
