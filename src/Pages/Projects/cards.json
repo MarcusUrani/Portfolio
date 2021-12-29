@@ -46,5 +46,13 @@
     "tech": "HTML | CSS | JavaScript",
     "description": "Projeto de um jogo, baseado em super trunfo, com a temática Pokémon. No jogo será apresetado um pokémon para o jogador, com os atributos ataque, defesa, ataque especial e defesa especial, selecione um dos atributos e clique em jogar, após isso o pokémon do computador aparecerá na tela e os valores do atributo selecionado pelo jogador serão comparados, o pokémon com o maior atributo, vence.",
     "link": "https://pokemontrunfo.netlify.app"
+  },
+  {
+    "id": 7,
+    "name": "Fruit Market",
+    "image": "feira",
+    "tech": "React | Material UI | StyledComponents",
+    "description": "Aplicação de compras, utilizando React, material ui e StyledComponents para a estilização. Consiste em um site para compras de frutas e verduras, simulando uma feira. São realizados cálculos de saldo final, valor total, juros, depedendo da forma de pagamento.",
+    "link": "https://feiraapp.netlify.app"
   }
 ]
