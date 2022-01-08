@@ -13,5 +13,10 @@
     "name": "Instagram",
     "href": "https://www.instagram.com/marcusvgu/",
     "image": "instagram"
+  },
+  {
+    "name": "(61) 99823-0628",
+    "href": "https://api.whatsapp.com/send?phone=5561998230628",
+    "image": "whatsapp"
   }
 ]
