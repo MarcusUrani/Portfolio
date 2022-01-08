@@ -10,8 +10,8 @@ const Contact = () => {
         {Contacts.map((contact) => (
           <a
             className="contact__item"
-            href={contact.name}
-            target="_blank"
+            href={contact.href}
+            target="blank"
             rel="noreferrer"
           >
             <img src={`/assets/${contact.image}.png`} />
