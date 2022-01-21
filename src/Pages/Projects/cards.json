@@ -9,38 +9,6 @@
   },
   {
     "id": 2,
-    "name": "Aparecida Nutrição",
-    "image": "nutricao",
-    "tech": "HTML | CSS | JavaScript",
-    "description": "Aplicação consiste em um gerenciador de pacientes e calculadora de IMC. Foi feito utilizando HTML, CSS e JavaScript e AJAX para buscar dados de outros pacientes, os cálculos de IMC são realizados automaticamente, é possível adicionar, remover e filtrar pacientes.",
-    "link": "https://nutricao.netlify.app"
-  },
-  {
-    "id": 3,
-    "name": "App Clima",
-    "image": "clima",
-    "tech": "HTML | CSS | JavaScript | OpenWeather API",
-    "description": "Aplicação simples de clima, com o consumo da API do open weather para obtenção dos dados em tempo real. Para sua construção foi utilizado HTML, CSS e JavaScript. Para utilizar basta digitar o nome do local desejado e os dados aparecerão na tela.",
-    "link": "https://climatual.netlify.app"
-  },
-  {
-    "id": 4,
-    "name": "Aluraflix",
-    "image": "aluraflix",
-    "tech": "HTML | CSS | JavaScript",
-    "description": "Projeto desenvolvido na Imersão Dev da Alura. Nesse projeto é possível adicionar seus filmes, séries, livros, animes e mangás favoritos, para isso basta selecionar o link de uma imagem e o link do trailer, caso exista, após isso clique em adicionar, a imagem selecionada será inserida na tela e caso queira ver o trailer é só clicar sobre ela.",
-    "link": "https://aluraflixx.netlify.app"
-  },
-  {
-    "id": 5,
-    "name": "Tabela de Pontuação",
-    "image": "pontuacao",
-    "tech": "HTML | CSS | JavaScript",
-    "description": "Tabela de pontuação para organização de torneios ou campeonatos, projeto também desenvolvido na Imersão Dev da Alura. Críterios de pontos são os utilizados no futebol, com vitória valendo 3 pontos, empate 1 ponto e derrota 0. É possível adicionar vitória, empate e derrota, zerar pontos e remover participantes. Também é verificado se o número de vitórias, empates e derrotas é coerente com o número de participantes.",
-    "link": "https://pontuacao.netlify.app"
-  },
-  {
-    "id": 6,
     "name": "Poké Trunfo",
     "image": "trunfo",
     "tech": "HTML | CSS | JavaScript",
@@ -48,7 +16,47 @@
     "link": "https://pokemontrunfo.netlify.app"
   },
   {
+    "id": 3,
+    "name": "Netflix Clone",
+    "image": "netflix",
+    "tech": "React | CSS | Material UI",
+    "description": "Clone da Netflix feito em React, utilizando a API do The movie DB para obtenção dos dados dos filmes e séries. Itens são adicionados dinamicamente a página, responsividade implementada para todos os aparelhos. Item em destque se altera aleatoriamente sempre que a página é recarregada.",
+    "link": "https://netflixrc.netlify.app"
+  },
+  {
+    "id": 4,
+    "name": "Aparecida Nutrição",
+    "image": "nutricao",
+    "tech": "HTML | CSS | JavaScript",
+    "description": "Aplicação consiste em um gerenciador de pacientes e calculadora de IMC. Foi feito utilizando HTML, CSS e JavaScript e AJAX para buscar dados de outros pacientes, os cálculos de IMC são realizados automaticamente, é possível adicionar, remover e filtrar pacientes.",
+    "link": "https://nutricao.netlify.app"
+  },
+  {
+    "id": 5,
+    "name": "App Clima",
+    "image": "clima",
+    "tech": "HTML | CSS | JavaScript | OpenWeather API",
+    "description": "Aplicação simples de clima, com o consumo da API do open weather para obtenção dos dados em tempo real. Para sua construção foi utilizado HTML, CSS e JavaScript. Para utilizar basta digitar o nome do local desejado e os dados aparecerão na tela.",
+    "link": "https://climatual.netlify.app"
+  },
+  {
+    "id": 6,
+    "name": "Aluraflix",
+    "image": "aluraflix",
+    "tech": "HTML | CSS | JavaScript",
+    "description": "Projeto desenvolvido na Imersão Dev da Alura. Nesse projeto é possível adicionar seus filmes, séries, livros, animes e mangás favoritos, para isso basta selecionar o link de uma imagem e o link do trailer, caso exista, após isso clique em adicionar, a imagem selecionada será inserida na tela e caso queira ver o trailer é só clicar sobre ela.",
+    "link": "https://aluraflixx.netlify.app"
+  },
+  {
     "id": 7,
+    "name": "Tabela de Pontuação",
+    "image": "pontuacao",
+    "tech": "HTML | CSS | JavaScript",
+    "description": "Tabela de pontuação para organização de torneios ou campeonatos, projeto também desenvolvido na Imersão Dev da Alura. Críterios de pontos são os utilizados no futebol, com vitória valendo 3 pontos, empate 1 ponto e derrota 0. É possível adicionar vitória, empate e derrota, zerar pontos e remover participantes. Também é verificado se o número de vitórias, empates e derrotas é coerente com o número de participantes.",
+    "link": "https://pontuacao.netlify.app"
+  },
+  {
+    "id": 8,
     "name": "Fruit Market",
     "image": "feira",
     "tech": "React | Material UI | StyledComponents",
