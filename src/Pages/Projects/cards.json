@@ -9,6 +9,14 @@
   },
   {
     "id": 2,
+    "name": "Aluracord",
+    "image": "aluracord",
+    "tech": "Next Js | Skynexui | Supabase",
+    "description": "Página que simula um chat do Discord. Feito em Next Js, utilizando o supabase para simular o backend, possibilitando a troca de mensagens em tempo real e seu armazenamento em um banco de dados. Para acessar basta digitar um nome de usuário do github.",
+    "link": "https://aluracord-one.vercel.app"
+  },
+  {
+    "id": 3,
     "name": "Poké Trunfo",
     "image": "trunfo",
     "tech": "HTML | CSS | JavaScript",
@@ -16,7 +24,7 @@
     "link": "https://pokemontrunfo.netlify.app"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Netflix Clone",
     "image": "netflix",
     "tech": "React | CSS | Material UI",
@@ -24,7 +32,7 @@
     "link": "https://netflixrc.netlify.app"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Aparecida Nutrição",
     "image": "nutricao",
     "tech": "HTML | CSS | JavaScript",
@@ -32,7 +40,7 @@
     "link": "https://nutricao.netlify.app"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "App Clima",
     "image": "clima",
     "tech": "HTML | CSS | JavaScript | OpenWeather API",
@@ -40,7 +48,7 @@
     "link": "https://climatual.netlify.app"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Aluraflix",
     "image": "aluraflix",
     "tech": "HTML | CSS | JavaScript",
@@ -48,7 +56,7 @@
     "link": "https://aluraflixx.netlify.app"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Tabela de Pontuação",
     "image": "pontuacao",
     "tech": "HTML | CSS | JavaScript",
@@ -56,7 +64,7 @@
     "link": "https://pontuacao.netlify.app"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Fruit Market",
     "image": "feira",
     "tech": "React | Material UI | StyledComponents",

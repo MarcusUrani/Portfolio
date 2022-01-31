@@ -1,9 +1,20 @@
 .footer {
-    background: var(--black-background);
-    color: var(--dark-green);
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    padding: 1rem 0;
-    text-align: center;
-    width: 100%;
+  background: var(--black-background);
+  color: var(--dark-green);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__link {
+  color: var(--dark-green);
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+
+.footer__link:hover {
+  color: var(--green);
+  text-decoration: underline;
 }
