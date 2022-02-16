@@ -1,9 +1,13 @@
 .footer {
+  align-items: center;
   background: var(--black-background);
   color: var(--dark-green);
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  padding: 1rem 0;
+  gap: 0.5rem;
+  padding: 1.5rem 0;
   text-align: center;
   width: 100%;
 }

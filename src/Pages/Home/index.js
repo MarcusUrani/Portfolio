@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <main className="about">
       <section className="about__info">
-        <img className="about__photo" src={Profile} />
+        <img className="about__photo" src={Profile} alt="Marcus Urani" />
         <article className="about__texts">
           <h1 className="about__name">Marcus Vinícius Gomes Urani</h1>
           <p className="about__role">Desenvolvedor front-end</p>

@@ -1,20 +1,24 @@
 [
   {
+    "alt": "LinkedIn",
     "name": "LinkedIn",
     "href": "https://www.linkedin.com/in/marcusurani/",
     "image": "linkedin"
   },
   {
+    "alt": "Email",
     "name": "Enviar email",
     "href": "mailto:marcus.urani20@gmail.com",
     "image": "gmail"
   },
   {
+    "alt": "Instagram",
     "name": "Instagram",
     "href": "https://www.instagram.com/marcusvgu/",
     "image": "instagram"
   },
   {
+    "alt": "WhatsApp",
     "name": "(61) 99823-0628",
     "href": "https://api.whatsapp.com/send?phone=5561998230628",
     "image": "whatsapp"
