@@ -8,6 +8,8 @@ Portfólio para a apresentação de projetos, sobre mim e disponibilização de 
 - React-router-dom
 - CSS
 
+Foi utilizado React.Js para o desenvolvimento do projeto, CSS para a estilização da página e a biblioteca react-router-dom para a criação de rots na página.
+
 ### Cartacterísticas
 
 - Home: Página inicial, onde meu perfil é apresentado, possui foto, nome e usuário do GitHub. São apresentadas também características pessoais, habilidades técnicas e soft skills.
@@ -18,4 +20,4 @@ Portfólio para a apresentação de projetos, sobre mim e disponibilização de 
 
 #### Acesso ao projeto
 
-Para acessar o projeto basta acessar o [link](https://marcusurani.netlify.app)
+Para visualizar o projeto basta acessar o [link](https://marcusurani.netlify.app)
