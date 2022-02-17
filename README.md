@@ -2,7 +2,7 @@
 
 Portfólio para a apresentação de projetos, sobre mim e disponibilização de contatos.
 
-## Técnologias utilizadas
+## Tecnologias utilizadas
 
 - React
 - React-router-dom
