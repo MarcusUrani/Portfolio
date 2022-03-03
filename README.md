@@ -8,7 +8,7 @@ Portfólio para a apresentação de projetos, sobre mim e disponibilização de 
 - React-router-dom
 - CSS
 
-Foi utilizado React.Js para o desenvolvimento do projeto, CSS para a estilização da página e a biblioteca react-router-dom para a criação de rots na página.
+Foi utilizado React.Js para o desenvolvimento do projeto, CSS para a estilização da página e a biblioteca react-router-dom para a criação de rotas na página.
 
 ### Cartacterísticas
 

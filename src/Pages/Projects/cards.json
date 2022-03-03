@@ -17,6 +17,14 @@
   },
   {
     "id": 3,
+    "name": "Aluraflix",
+    "image": "aluraflix",
+    "tech": "HTML | CSS | JavaScript",
+    "description": "Adicione seus filmes e séries favoritos. Para usar basta digitar, no campo de busca, o nome do filme ou série desejado, feito isso clique em pesquisar, uma lista será apresentada na tela, com os itens de nome similar, selecione o item desejado e ele será adicionado a tela inicial. Há também uma verificação de erros, caso o campo de busca esteja vazio ou o item selecionado já esteja na lista.",
+    "link": "https://aluraflixx.netlify.app"
+  },
+  {
+    "id": 4,
     "name": "PokéDex",
     "image": "pokedex",
     "tech": "HTML | CSS | JavaScript | PokeAPI",
@@ -24,7 +32,7 @@
     "link": "https://pokapp.netlify.app"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Netflix Clone",
     "image": "netflix",
     "tech": "React | CSS | Material UI",
@@ -32,7 +40,7 @@
     "link": "https://netflixrc.netlify.app"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Poké Trunfo",
     "image": "trunfo",
     "tech": "HTML | CSS | JavaScript",
@@ -40,7 +48,7 @@
     "link": "https://pokemontrunfo.netlify.app"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Aparecida Nutrição",
     "image": "nutricao",
     "tech": "HTML | CSS | JavaScript",
@@ -48,20 +56,12 @@
     "link": "https://nutricao.netlify.app"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "App Clima",
     "image": "clima",
     "tech": "HTML | CSS | JavaScript | OpenWeather API",
     "description": "Aplicação simples de clima, com o consumo da API do open weather para obtenção dos dados em tempo real. Para sua construção foi utilizado HTML, CSS e JavaScript. Para utilizar basta digitar o nome do local desejado e os dados aparecerão na tela.",
     "link": "https://climatual.netlify.app"
-  },
-  {
-    "id": 8,
-    "name": "Aluraflix",
-    "image": "aluraflix",
-    "tech": "HTML | CSS | JavaScript",
-    "description": "Projeto desenvolvido na Imersão Dev da Alura. Nesse projeto é possível adicionar seus filmes, séries, livros, animes e mangás favoritos, para isso basta selecionar o link de uma imagem e o link do trailer, caso exista, após isso clique em adicionar, a imagem selecionada será inserida na tela e caso queira ver o trailer é só clicar sobre ela.",
-    "link": "https://aluraflixx.netlify.app"
   },
   {
     "id": 9,
