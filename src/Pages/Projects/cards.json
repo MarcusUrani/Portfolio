@@ -20,7 +20,7 @@
     "name": "Aluraflix",
     "image": "aluraflix",
     "tech": "HTML | CSS | JavaScript",
-    "description": "Adicione seus filmes e séries favoritos. Para usar basta digitar, no campo de busca, o nome do filme ou série desejado, feito isso clique em pesquisar, uma lista será apresentada na tela, com os itens de nome similar, selecione o item desejado e ele será adicionado a tela inicial. Há também uma verificação de erros, caso o campo de busca esteja vazio ou o item selecionado já esteja na lista.",
+    "description": "Adicione seus filmes favoritos. Para usar basta digitar, no campo de busca, o nome do filme desejado, feito isso clique em pesquisar, uma lista será apresentada na tela, com os itens de nome similar, selecione o item desejado e ele será adicionado a tela inicial. Há também uma verificação de erros, caso o campo de busca esteja vazio ou o item selecionado já esteja na lista.",
     "link": "https://aluraflixx.netlify.app"
   },
   {
