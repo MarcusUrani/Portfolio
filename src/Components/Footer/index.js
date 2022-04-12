@@ -7,7 +7,7 @@ const Footer = () => {
       <p className="footer__text">Desenvolvido por Marcus Urani</p>
       <a
         className="footer__link"
-        href="https://www.flaticon.com/free-icons/"
+        href="https://www.flaticon.com/"
         title="Icons"
       >
         All icons created by Freepik - Flaticon

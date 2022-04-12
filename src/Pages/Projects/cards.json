@@ -49,11 +49,11 @@
   },
   {
     "id": 7,
-    "name": "Aparecida Nutrição",
-    "image": "nutricao",
-    "tech": "HTML | CSS | JavaScript",
-    "description": "Aplicação consiste em um gerenciador de pacientes e calculadora de IMC. Foi feito utilizando HTML, CSS e JavaScript e AJAX para buscar dados de outros pacientes, os cálculos de IMC são realizados automaticamente, é possível adicionar, remover e filtrar pacientes.",
-    "link": "https://nutricao.netlify.app"
+    "name": "AluraGeek",
+    "image": "alurageek",
+    "tech": "React | CSS | Material UI | Formik",
+    "description": "Protótipo de loja com seção de administrador, onde é possível gerenciar os produtos. Formulários de login, envio de mensagem e adicionar produtos são validados utilizando a biblioteca formik. A estilização foi feita utilizando CSS e Material Ui. Produtos são listados buscando dados de uma API criada com Json server que está hospedada no Heroku.",
+    "link": "https://alurageek.netlify.app"
   },
   {
     "id": 8,
