@@ -1,61 +1,81 @@
 .header {
-    align-items: center;
-    background: var(--black);
-    color: var(--white);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    font-family: "Poppins", sans-serif;
-    padding: 1rem 7rem;
-    position: fixed;
-    width: 83%;
+  align-items: center;
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 7rem;
+  position: fixed;
+  width: 83%;
 }
 
 .header__container {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 .header__title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-left: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 1.2rem;
 }
 
 .header__links {
-    align-items: center;
-    display: flex;
-    gap: 1.3rem
+  align-items: center;
+  display: flex;
+  gap: 1.3rem;
 }
 
 .header__link {
-    color: var(--white);
-    text-decoration: none;
-    text-transform: uppercase;
+  color: var(--white);
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all ease 0.3s;
+  width: fit-content;
 }
 
 .header__link:hover {
-    color: var(--green);
-    text-decoration: underline;
-    transition: all ease .5s;
+  color: var(--dark-green);
 }
 
-@media(max-width: 680px) {
-    .header {
-        justify-content: center;
-        padding: 1rem 2rem;
-        width: 100%;
-    }
+.header__link:before {
+  background-color: var(--dark-green);
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transition: all 0.3s ease;
+  visibility: hidden;
+  width: 100%;
+}
 
-    .header__title {
-        margin-right: 5rem;
-        width: 100%;
-    }
-    
-    .header__links {
-        justify-content: center;
-        margin-top: 1rem;
-        margin-right: 3rem;
-        width: 100%;
-    }
+.header__link:hover:before {
+  color: var(--dark-green);
+  transform: scaleX(1);
+  visibility: visible;
+}
+
+@media (max-width: 680px) {
+  .header {
+    justify-content: center;
+    padding: 1rem 2rem;
+    width: 100%;
+  }
+
+  .header__title {
+    margin-right: 5rem;
+    width: 100%;
+  }
+
+  .header__links {
+    justify-content: center;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    width: 100%;
+  }
 }
