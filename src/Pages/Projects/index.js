@@ -10,7 +10,7 @@ const Projects = () => {
         {cards.map((card) => (
           <div className="projects__card" key={card.id}>
             <figure className="card__img">
-              <img src={`/assets/${card.image}.png`} alt="Logo do projeto" />
+              <img src={card.image} alt="Logo do projeto" />
             </figure>
             <article className="card__texts">
               <h3 className="card__tech">{card.tech} </h3>
