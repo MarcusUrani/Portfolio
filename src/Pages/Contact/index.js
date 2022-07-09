@@ -11,10 +11,10 @@ const Contact = () => {
           <a
             className="contact__item"
             href={contact.href}
-            target="blank"
+            target="_blank"
             rel="noreferrer"
           >
-            <img src={`/assets/${contact.image}.png`} alt={contact.alt} />
+            <img src={contact.image} alt={contact.alt} />
             {contact.name}
           </a>
         ))}

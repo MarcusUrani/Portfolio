@@ -3,24 +3,24 @@
     "alt": "LinkedIn",
     "name": "LinkedIn",
     "href": "https://www.linkedin.com/in/marcusurani/",
-    "image": "linkedin"
+    "image": "https://imgur.com/1pgY1uz.png"
   },
   {
     "alt": "Email",
     "name": "Enviar email",
     "href": "mailto:marcus.urani20@gmail.com",
-    "image": "gmail"
+    "image": "https://imgur.com/eV0NUm9.png"
   },
   {
     "alt": "Instagram",
     "name": "Instagram",
     "href": "https://www.instagram.com/marcusvgu/",
-    "image": "instagram"
+    "image": "https://imgur.com/dauXyOQ.png"
   },
   {
     "alt": "WhatsApp",
     "name": "(61) 99823-0628",
     "href": "https://api.whatsapp.com/send?phone=5561998230628",
-    "image": "whatsapp"
+    "image": "https://imgur.com/7FekON7.png"
   }
 ]
