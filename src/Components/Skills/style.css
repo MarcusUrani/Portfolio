@@ -1,0 +1,30 @@
+.about__container {
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+  padding: 0 7rem;
+}
+
+.about__list {
+  list-style: circle;
+  font-size: 1.2rem;
+}
+
+.about__item {
+  align-items: center;
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+
+.about__item__icon {
+  margin-right: 0.5rem;
+  width: 2.25rem;
+}
+
+@media (max-width: 680px) {
+  .about__container {
+    padding: 0 3rem;
+  }
+}

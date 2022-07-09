@@ -3,7 +3,7 @@ import "./style.css";
 import Profile from "../../img/eu.jfif";
 import Github from "../../img/github.png";
 import AboutMe from "../../Components/AboutMe";
-import Habilities from "../../Components/Habilities";
+import Skills from "../../Components/Skills";
 import SoftSkills from "../../Components/SoftSkills";
 
 const Home = () => {
@@ -28,7 +28,7 @@ const Home = () => {
         </article>
       </section>
       <AboutMe />
-      <Habilities />
+      <Skills />
       <SoftSkills />
     </main>
   );

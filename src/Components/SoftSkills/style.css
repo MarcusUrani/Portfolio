@@ -1,0 +1,17 @@
+.soft--skills__container {
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+  padding: 0 7rem;
+}
+
+.soft--skills__list {
+  list-style: circle;
+  font-size: 1.2rem;
+}
+
+.soft--skills__item {
+  margin-bottom: 0.7rem;
+}

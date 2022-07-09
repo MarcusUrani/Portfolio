@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "skill": "HTML",
+    "icon": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
+  },
+  {
+    "id": "2",
+    "skill": "CSS",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+  },
+  {
+    "id": "3",
+    "skill": "JavaScript",
+    "icon": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
+  },
+  {
+    "id": "4",
+    "skill": "React",
+    "icon": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
+  },
+  {
+    "id": "5",
+    "skill": "TypeScript",
+    "icon": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+  },
+  {
+    "id": "6",
+    "skill": "Tailwind CSS",
+    "icon": "https://progsoft.net/images/tailwind-css-icon-70187f0341bd945dc65ad050a9a1b8f4fd79b1cf.png"
+  },
+  {
+    "id": "7",
+    "skill": "Sass",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.png"
+  },
+  {
+    "id": "8",
+    "skill": "Next.js",
+    "icon": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
+  },
+  {
+    "id": "9",
+    "skill": "Git | Github",
+    "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+  },
+  {
+    "id": "10",
+    "skill": "Graph QL",
+    "icon": "https://imgur.com/BhBbvTq.png"
+  }
+]
