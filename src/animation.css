@@ -1,6 +1,5 @@
 .transition-enter {
   transform: translateX(100vw);
-  overflow-x: hidden;
   z-index: 1;
 }
 

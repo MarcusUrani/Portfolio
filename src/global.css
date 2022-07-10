@@ -97,6 +97,10 @@ video {
   vertical-align: baseline;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 article,
 aside,
 details,

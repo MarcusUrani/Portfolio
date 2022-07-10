@@ -9,6 +9,7 @@ const Contact = () => {
         <h3 className="title">Contato</h3>
         {Contacts.map((contact) => (
           <a
+            key={contact.id}
             className="contact__item"
             href={contact.href}
             target="_blank"

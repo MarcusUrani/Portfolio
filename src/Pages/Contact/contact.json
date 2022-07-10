@@ -1,23 +1,27 @@
 [
   {
+    "id": "1",
     "alt": "LinkedIn",
     "name": "LinkedIn",
     "href": "https://www.linkedin.com/in/marcusurani/",
     "image": "https://imgur.com/1pgY1uz.png"
   },
   {
+    "id": "2",
     "alt": "Email",
     "name": "Enviar email",
     "href": "mailto:marcus.urani20@gmail.com",
     "image": "https://imgur.com/eV0NUm9.png"
   },
   {
+    "id": "3",
     "alt": "Instagram",
     "name": "Instagram",
     "href": "https://www.instagram.com/marcusvgu/",
     "image": "https://imgur.com/dauXyOQ.png"
   },
   {
+    "id": "4",
     "alt": "WhatsApp",
     "name": "(61) 99823-0628",
     "href": "https://api.whatsapp.com/send?phone=5561998230628",
