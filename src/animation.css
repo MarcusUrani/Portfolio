@@ -1,9 +1,10 @@
 .transition-enter {
-  opacity: 0;
+  transform: translateX(100vw);
+  overflow-x: hidden;
   z-index: 1;
 }
 
 .transition-enter.transition-enter-active {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
+  transform: translateX(0);
+  transition: transform 0.5s ease;
 }
