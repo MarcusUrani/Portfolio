@@ -9,6 +9,7 @@
   padding: 1rem 7rem;
   position: fixed;
   width: 83%;
+  z-index: 99;
 }
 
 .header__container {
