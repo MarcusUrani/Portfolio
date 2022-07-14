@@ -1,0 +1,11 @@
+.project {
+}
+
+.project__header {
+  height: 40vh;
+}
+
+.project__header__container {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 30%, transparent 100%);
+  height: inherit;
+}

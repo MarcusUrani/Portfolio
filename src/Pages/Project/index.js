@@ -15,9 +15,16 @@ const Project = () => {
 
   return (
     <main className="project">
-      <section className="project__header">
-        <section className="project__header__shadow">
-          {item ? (
+      {item ? (
+        <section
+          className="project__header"
+          style={{
+            backgroundImage: `url(${item.image})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
+          <section className="project__header__container">
             <h3
               className="project__header__title"
               style={{
@@ -27,11 +34,11 @@ const Project = () => {
             >
               {item.name}
             </h3>
-          ) : (
-            <h3>Carregando...</h3>
-          )}
+          </section>
         </section>
-      </section>
+      ) : (
+        <div>Loading...</div>
+      )}
     </main>
   );
 };
