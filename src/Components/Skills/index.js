@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import skillList from "./skills.json";
+import skillList from "../../Services/skills.json";
 
 const Skills = () => {
   return (

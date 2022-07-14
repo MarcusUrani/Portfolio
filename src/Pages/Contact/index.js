@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Contacts from "./contact.json";
+import Contacts from "../../Services/contact.json";
 
 const Contact = () => {
   return (
