@@ -29,7 +29,8 @@
     "image": "https://imgur.com/aV4rGWg.png",
     "tech": "HTML | CSS | JavaScript | PokeAPI",
     "description": "Projeto de uma pokédex, desenvolvido com a PokeAPI. Para utilizar basta acessar a página e selecionar a opção desejada, é possível escolher entre todos os Pokémons ou por geração. Enquanto ocorre a busca de dados e a montagem dos cards, há uma animação de carregamento. Cada card possui imagem, nome, altura, peso e tipo do Pokémon correspondente.",
-    "link": "https://pokapp.netlify.app"
+    "link": "https://pokapp.netlify.app",
+    "slug": "pokedex"
   },
   {
     "id": 5,
@@ -37,7 +38,8 @@
     "image": "https://imgur.com/xRLFYmD.png",
     "tech": "React | CSS | Material UI",
     "description": "Clone da Netflix feito em React, utilizando a API do The movie DB para obtenção dos dados dos filmes e séries. Itens são adicionados dinamicamente a página, responsividade implementada para todos os aparelhos. Item em destaque se altera aleatoriamente sempre que a página é recarregada.",
-    "link": "https://netflixrc.netlify.app"
+    "link": "https://netflixrc.netlify.app",
+    "slug": "netflix-clone"
   },
   {
     "id": 6,
@@ -45,7 +47,8 @@
     "image": "https://imgur.com/IJjBgt3.png",
     "tech": "React | TypeScript| TailwindCSS | GraphQL",
     "description": "Página que simula o Ignite Lab da Rocketseat. React e TypeScript foram utilizados para o desenvolvimento da lógica e construção da página, para a estilização das páginas foi utilizado o TailwindCSS. Dados das aulas, armazenados em GraphCMS, foram consumidos utilizando o Apollo GraphQL.",
-    "link": "https://ignite-lab-pro.vercel.app"
+    "link": "https://ignite-lab-pro.vercel.app",
+    "slug": "event-page"
   },
   {
     "id": 7,
@@ -53,7 +56,8 @@
     "image": "https://imgur.com/p7UPJkt.png",
     "tech": "React | CSS | Material UI | Formik",
     "description": "Protótipo de loja com seção de administrador, onde é possível gerenciar os produtos. Formulários de login, envio de mensagem e adicionar produtos são validados utilizando a biblioteca Formik. A estilização foi feita utilizando CSS e Material Ui. Produtos são listados buscando dados de uma API criada com Json server que está hospedada no Heroku.",
-    "link": "https://alurageek.netlify.app"
+    "link": "https://alurageek.netlify.app",
+    "slug": "alura-geek"
   },
   {
     "id": 8,
@@ -61,7 +65,8 @@
     "image": "https://imgur.com/bWP9gT5.png",
     "tech": "HTML | CSS | JavaScript | OpenWeather API",
     "description": "Aplicação simples de clima, com o consumo da API do open weather para obtenção dos dados em tempo real. Para sua construção foi utilizado HTML, CSS e JavaScript. Para utilizar basta digitar o nome do local desejado e os dados aparecerão na tela.",
-    "link": "https://climatual.netlify.app"
+    "link": "https://climatual.netlify.app",
+    "slug": "app-clima"
   },
   {
     "id": 9,
@@ -69,7 +74,8 @@
     "image": "https://imgur.com/riAZKUk.png",
     "tech": "HTML | CSS | JavaScript",
     "description": "Tabela de pontuação para organização de torneios ou campeonatos, projeto também desenvolvido na Imersão Dev da Alura. Critérios de pontos são os utilizados no futebol, com vitória valendo 3 pontos, empate 1 ponto e derrota 0. É possível adicionar vitória, empate e derrota, zerar pontos e remover participantes. Também é verificado se o número de vitórias, empates e derrotas é coerente com o número de participantes.",
-    "link": "https://pontuacao.netlify.app"
+    "link": "https://pontuacao.netlify.app",
+    "slug": "points-table"
   },
   {
     "id": 10,
@@ -77,6 +83,7 @@
     "image": "https://imgur.com/IMWnjNq.png",
     "tech": "React | Material UI | StyledComponents",
     "description": "Aplicação de compras, utilizando React, material ui e StyledComponents para a estilização. Consiste em um site para compras de frutas e verduras, simulando uma feira. São realizados cálculos de saldo final, valor total, juros, dependendo da forma de pagamento.",
-    "link": "https://feiraapp.netlify.app"
+    "link": "https://feiraapp.netlify.app",
+    "slug": "fruit-market"
   }
 ]

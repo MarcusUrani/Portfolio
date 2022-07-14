@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import cards from "./cards.json";
+import cards from "../../Services/cards.json";
 
 const Projects = () => {
   return (
