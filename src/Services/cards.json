@@ -5,7 +5,8 @@
     "image": "https://imgur.com/RqIpJ9k.png",
     "tech": "React | Material UI | OpenDB API",
     "description": "Quiz feito em React, utilizando Material UI para a estilização de componentes, utilizando também a biblioteca axios para o consumo da API. A API Open Trivia Database utilizada para obtenção de perguntas e respostas. É possível selecionar a categoria e dificuldade das perguntas a serem exibidas, no final é exibido o placar.",
-    "link": "https://appquizreact.netlify.app"
+    "link": "https://appquizreact.netlify.app",
+    "slug": "react-quiz"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "image": "https://imgur.com/3cu4rgv.png",
     "tech": "Next Js | Skynexui | Supabase",
     "description": "Página que simula um chat do Discord. Feito em Next Js, utilizando o supabase para simular o backend, possibilitando a troca de mensagens em tempo real e seu armazenamento em um banco de dados. Para acessar basta digitar um nome de usuário do github.",
-    "link": "https://aluracord-one.vercel.app"
+    "link": "https://aluracord-one.vercel.app",
+    "slug": "aluracord"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "image": "https://imgur.com/zcIBJlE.png",
     "tech": "HTML | CSS | JavaScript",
     "description": "Adicione seus filmes favoritos. Para usar basta digitar, no campo de busca, o nome do filme desejado, feito isso clique em pesquisar, uma lista será apresentada na tela, com os itens de nome similar, selecione o item desejado e ele será adicionado a tela inicial. Há também uma verificação de erros, caso o campo de busca esteja vazio ou o item selecionado já esteja na lista.",
-    "link": "https://aluraflixx.netlify.app"
+    "link": "https://aluraflixx.netlify.app",
+    "slug": "aluraflix"
   },
   {
     "id": 4,
