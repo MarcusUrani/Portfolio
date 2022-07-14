@@ -16,6 +16,7 @@ export default function Routes() {
             <Route exact path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/projects/:slug" element={<h1>Olá</h1>} />
           </Switch>
         </CSSTransition>
       </TransitionGroup>
