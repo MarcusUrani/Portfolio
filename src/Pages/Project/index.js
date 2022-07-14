@@ -11,7 +11,7 @@ const Project = () => {
   useEffect(() => {
     const getProjectBySlug = projects.find((project) => project.slug === slug);
     setItem(getProjectBySlug);
-  });
+  }, [slug]);
 
   return (
     <main className="project">
