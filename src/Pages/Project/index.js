@@ -25,15 +25,7 @@ const Project = () => {
           }}
         >
           <section className="project__header__container">
-            <h3
-              className="project__header__title"
-              style={{
-                textAlign: "center",
-                paddingTop: "100px",
-              }}
-            >
-              {item.name}
-            </h3>
+            <h3 className="project__header__title">{item.name}</h3>
           </section>
         </section>
       ) : (

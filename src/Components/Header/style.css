@@ -1,15 +1,22 @@
 .header {
-  align-items: center;
   background: var(--black);
   color: var(--white);
   display: flex;
+  font-family: "Poppins", sans-serif;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+
+.header__nav {
+  align-items: center;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-family: "Poppins", sans-serif;
-  padding: 1rem 7rem;
-  position: fixed;
-  width: 83%;
-  z-index: 99;
+  margin: 0 auto;
+  padding: 1rem 0;
+  width: 80%;
 }
 
 .header__container {
@@ -20,7 +27,6 @@
 .header__title {
   font-size: 1.2rem;
   font-weight: bold;
-  margin-left: 1.2rem;
 }
 
 .header__links {
@@ -63,20 +69,22 @@
 
 @media (max-width: 680px) {
   .header {
+    width: 100%;
+  }
+
+  .header__nav {
     justify-content: center;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
     width: 100%;
   }
 
   .header__title {
-    margin-right: 5rem;
     width: 100%;
   }
 
   .header__links {
     justify-content: center;
     margin-top: 1rem;
-    margin-right: 3rem;
     width: 100%;
   }
 }
