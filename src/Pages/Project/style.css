@@ -1,11 +1,47 @@
 .project {
+  font-family: "Poppins", sans-serif;
+  padding-top: 3rem;
 }
 
 .project__header {
   height: 40vh;
 }
 
-.project__header__container {
+.project__header__shadow--container {
   background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 30%, transparent 100%);
   height: inherit;
+}
+
+.project__header__shadow--container__content {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  height: inherit;
+  justify-content: flex-end;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.intern__title {
+  color: var(--white);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.project__header__shadow--container__content__repo--link {
+  align-items: center;
+  color: var(--white);
+  display: flex;
+  font-size: 1rem;
+  gap: 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project__header__shadow--container__content__repo--link:hover {
+  color: var(--green);
+}
+
+.project__header__shadow--container__content__repo--link__logo {
+  filter: invert(100%);
 }

@@ -3,6 +3,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import projects from "../../Services/cards.json";
 import { useEffect } from "react";
+import GitHub from "../../img/github.png";
 
 const Project = () => {
   const { slug } = useParams();
@@ -22,10 +23,26 @@ const Project = () => {
             backgroundImage: `url(${item.image})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
         >
-          <section className="project__header__container">
-            <h3 className="project__header__title">{item.name}</h3>
+          <section className="project__header__shadow--container">
+            <article className="project__header__shadow--container__content">
+              <h3 className="title intern__title">{item.name}</h3>
+              <a
+                className="project__header__shadow--container__content__repo--link"
+                target={"_blank"}
+                rel="noreferrer"
+                href={item.repository}
+              >
+                <img
+                  src={GitHub}
+                  alt="GitHub logo"
+                  className="project__header__shadow--container__content__repo--link__logo"
+                />
+                Repositório
+              </a>
+            </article>
           </section>
         </section>
       ) : (
