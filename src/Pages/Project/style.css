@@ -16,6 +16,7 @@
   align-items: flex-start;
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
   height: inherit;
   justify-content: flex-end;
   margin: 0 auto;
@@ -25,10 +26,24 @@
 .intern__title {
   color: var(--white);
   font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.project__header__shadow--container__content__description {
+  color: var(--white);
+  font-size: 1.2rem;
+  font-weight: 300;
   margin-bottom: 1rem;
 }
 
-.project__header__shadow--container__content__repo--link {
+.project__header__shadow--container__content__links {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.project__header__shadow--container__content__links__repo--link,
+.project__header__shadow--container__content__links__link {
   align-items: center;
   color: var(--white);
   display: flex;
@@ -38,10 +53,11 @@
   transition: color 0.3s ease;
 }
 
-.project__header__shadow--container__content__repo--link:hover {
+.project__header__shadow--container__content__links__repo--link:hover,
+.project__header__shadow--container__content__links__link:hover {
   color: var(--green);
 }
 
-.project__header__shadow--container__content__repo--link__logo {
+.project__header__shadow--container__content__links__repo--link__logo {
   filter: invert(100%);
 }
