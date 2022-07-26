@@ -11,15 +11,15 @@
     "repository": "https://github.com/MarcusUrani/quiz-app",
     "body": {
       "tech": {
-        "react": {
+        "1": {
           "name": "React",
           "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
         },
-        "css": {
+        "2": {
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
-        "material-ui": {
+        "3": {
           "name": "Material UI",
           "image": "https://cdn.worldvectorlogo.com/logos/material-ui.svg"
         }
@@ -38,14 +38,14 @@
     "repository": "https://github.com/MarcusUrani/aluracord",
     "body": {
       "tech": {
-        "react": {
+        "1": {
           "name": "Next.Js",
           "image": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
         },
-        "css": {
+        "2": {
           "name": "SkynexUi"
         },
-        "material-ui": {
+        "3": {
           "name": "Supabase",
           "image": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png"
         }
@@ -64,15 +64,15 @@
     "repository": "https://github.com/MarcusUrani/Aluraflix",
     "body": {
       "tech": {
-        "react": {
+        "1": {
           "name": "HTML",
           "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
         },
-        "css": {
+        "2": {
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
-        "material-ui": {
+        "3": {
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
@@ -91,15 +91,15 @@
     "repository": "https://github.com/MarcusUrani/PokeDex",
     "body": {
       "tech": {
-        "react": {
+        "1": {
           "name": "HTML",
           "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
         },
-        "css": {
+        "2": {
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
-        "material-ui": {
+        "3": {
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
@@ -114,7 +114,23 @@
     "description": "Clone da Netflix feito em React, utilizando a API do The movie DB para obtenção dos dados dos filmes e séries. Itens são adicionados dinamicamente a página, responsividade implementada para todos os aparelhos. Item em destaque se altera aleatoriamente sempre que a página é recarregada.",
     "link": "https://netflixrc.netlify.app",
     "slug": "netflix-clone",
-    "repository": "https://github.com/MarcusUrani/netflixclone"
+    "repository": "https://github.com/MarcusUrani/netflixclone",
+    "body": {
+      "tech": {
+        "1": {
+          "name": "React",
+          "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
+        },
+        "2": {
+          "name": "CSS",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        },
+        "3": {
+          "name": "Material UI",
+          "image": "https://cdn.worldvectorlogo.com/logos/material-ui.svg"
+        }
+      }
+    }
   },
   {
     "id": 6,
@@ -124,17 +140,53 @@
     "description": "Página que simula o Ignite Lab da Rocketseat. React e TypeScript foram utilizados para o desenvolvimento da lógica e construção da página, para a estilização das páginas foi utilizado o TailwindCSS. Dados das aulas, armazenados em GraphCMS, foram consumidos utilizando o Apollo GraphQL.",
     "link": "https://ignite-lab-pro.vercel.app",
     "slug": "event-page",
-    "repository": "https://github.com/MarcusUrani/IgniteLab"
+    "repository": "https://github.com/MarcusUrani/IgniteLab",
+    "body": {
+      "tech": {
+        "1": {
+          "name": "React",
+          "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
+        },
+        "2": {
+          "name": "TypeScript",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
+        },
+        "3": {
+          "name": "TailwindCSS",
+          "image": "https://progsoft.net/images/tailwind-css-icon-70187f0341bd945dc65ad050a9a1b8f4fd79b1cf.png"
+        },
+        "4": {
+          "name": "GraphQL",
+          "image": "https://imgur.com/BhBbvTq.png"
+        }
+      }
+    }
   },
   {
     "id": 7,
     "name": "AluraGeek",
     "image": "https://imgur.com/p7UPJkt.png",
-    "tech": "React | CSS | Material UI | Formik",
+    "tech": "React | CSS | Material UI",
     "description": "Protótipo de loja com seção de administrador, onde é possível gerenciar os produtos. Formulários de login, envio de mensagem e adicionar produtos são validados utilizando a biblioteca Formik. A estilização foi feita utilizando CSS e Material Ui. Produtos são listados buscando dados de uma API criada com Json server que está hospedada no Heroku.",
     "link": "https://alurageek.netlify.app",
     "slug": "alura-geek",
-    "repository": "https://github.com/MarcusUrani/alurachallenge"
+    "repository": "https://github.com/MarcusUrani/alurachallenge",
+    "body": {
+      "tech": {
+        "1": {
+          "name": "React",
+          "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
+        },
+        "2": {
+          "name": "CSS",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        },
+        "3": {
+          "name": "Material UI",
+          "image": "https://cdn.worldvectorlogo.com/logos/material-ui.svg"
+        }
+      }
+    }
   },
   {
     "id": 8,
@@ -144,7 +196,23 @@
     "description": "Aplicação simples de clima, com o consumo da API do open weather para obtenção dos dados em tempo real. Para sua construção foi utilizado HTML, CSS e JavaScript. Para utilizar basta digitar o nome do local desejado e os dados aparecerão na tela.",
     "link": "https://climatual.netlify.app",
     "slug": "app-clima",
-    "repository": "https://github.com/MarcusUrani/Clima"
+    "repository": "https://github.com/MarcusUrani/Clima",
+    "body": {
+      "tech": {
+        "1": {
+          "name": "HTML",
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
+        },
+        "2": {
+          "name": "CSS",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        },
+        "3": {
+          "name": "JavaScript",
+          "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
+        }
+      }
+    }
   },
   {
     "id": 9,
@@ -154,7 +222,23 @@
     "description": "Tabela de pontuação para organização de torneios ou campeonatos, projeto também desenvolvido na Imersão Dev da Alura. Critérios de pontos são os utilizados no futebol, com vitória valendo 3 pontos, empate 1 ponto e derrota 0. É possível adicionar vitória, empate e derrota, zerar pontos e remover participantes. Também é verificado se o número de vitórias, empates e derrotas é coerente com o número de participantes.",
     "link": "https://pontuacao.netlify.app",
     "slug": "points-table",
-    "repository": "https://github.com/MarcusUrani/pontuacao"
+    "repository": "https://github.com/MarcusUrani/pontuacao",
+    "body": {
+      "tech": {
+        "1": {
+          "name": "HTML",
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
+        },
+        "2": {
+          "name": "CSS",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        },
+        "3": {
+          "name": "JavaScript",
+          "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
+        }
+      }
+    }
   },
   {
     "id": 10,
@@ -164,6 +248,22 @@
     "description": "Aplicação de compras, utilizando React, material ui e StyledComponents para a estilização. Consiste em um site para compras de frutas e verduras, simulando uma feira. São realizados cálculos de saldo final, valor total, juros, dependendo da forma de pagamento.",
     "link": "https://feiraapp.netlify.app",
     "slug": "fruit-market",
-    "repository": "https://github.com/MarcusUrani/Context-React"
+    "repository": "https://github.com/MarcusUrani/Context-React",
+    "body": {
+      "tech": {
+        "1": {
+          "name": "React",
+          "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
+        },
+        "2": {
+          "name": "StyledComponents",
+          "image": "https://avatars.githubusercontent.com/u/20658825?s=200&v=4.png"
+        },
+        "3": {
+          "name": "Material UI",
+          "image": "https://cdn.worldvectorlogo.com/logos/material-ui.svg"
+        }
+      }
+    }
   }
 ]
