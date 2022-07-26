@@ -13,6 +13,7 @@ const Project = () => {
 
   const getItemTechs = (item) => {
     const techs = [];
+    // eslint-disable-next-line
     Object.keys(item.body.techs).map((tech) => {
       techs.push(item.body.techs[tech]);
       setItemTechs(techs);
@@ -24,7 +25,6 @@ const Project = () => {
     setItem(getProjectBySlug);
     if (item) {
       getItemTechs(item);
-      console.log(itemTechs);
     }
   }, [slug, item]);
 
