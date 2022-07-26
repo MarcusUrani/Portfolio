@@ -10,16 +10,19 @@
     "slug": "react-quiz",
     "repository": "https://github.com/MarcusUrani/quiz-app",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "React",
           "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
         },
         "2": {
+          "id": 2,
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
         "3": {
+          "id": 3,
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }
@@ -37,15 +40,18 @@
     "slug": "aluracord",
     "repository": "https://github.com/MarcusUrani/aluracord",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "Next.Js",
           "image": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
         },
         "2": {
+          "id": 2,
           "name": "SkynexUi"
         },
         "3": {
+          "id": 3,
           "name": "Supabase",
           "image": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png"
         }
@@ -63,16 +69,19 @@
     "slug": "aluraflix",
     "repository": "https://github.com/MarcusUrani/Aluraflix",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "HTML",
           "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
         },
         "2": {
+          "id": 2,
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
         "3": {
+          "id": 3,
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
@@ -90,16 +99,19 @@
     "slug": "pokedex",
     "repository": "https://github.com/MarcusUrani/PokeDex",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "HTML",
           "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
         },
         "2": {
+          "id": 2,
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
         "3": {
+          "id": 3,
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
@@ -116,16 +128,19 @@
     "slug": "netflix-clone",
     "repository": "https://github.com/MarcusUrani/netflixclone",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "React",
           "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
         },
         "2": {
+          "id": 2,
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
         "3": {
+          "id": 3,
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }
@@ -142,20 +157,24 @@
     "slug": "event-page",
     "repository": "https://github.com/MarcusUrani/IgniteLab",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "React",
           "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
         },
         "2": {
+          "id": 2,
           "name": "TypeScript",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
         },
         "3": {
+          "id": 3,
           "name": "TailwindCSS",
           "image": "https://progsoft.net/images/tailwind-css-icon-70187f0341bd945dc65ad050a9a1b8f4fd79b1cf.png"
         },
         "4": {
+          "id": 4,
           "name": "GraphQL",
           "image": "https://imgur.com/BhBbvTq.png"
         }
@@ -172,16 +191,19 @@
     "slug": "alura-geek",
     "repository": "https://github.com/MarcusUrani/alurachallenge",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "React",
           "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
         },
         "2": {
+          "id": 2,
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
         "3": {
+          "id": 3,
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }
@@ -198,16 +220,19 @@
     "slug": "app-clima",
     "repository": "https://github.com/MarcusUrani/Clima",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "HTML",
           "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
         },
         "2": {
+          "id": 2,
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
         "3": {
+          "id": 3,
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
@@ -224,16 +249,19 @@
     "slug": "points-table",
     "repository": "https://github.com/MarcusUrani/pontuacao",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "HTML",
           "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
         },
         "2": {
+          "id": 2,
           "name": "CSS",
           "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
         },
         "3": {
+          "id": 3,
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
@@ -250,16 +278,19 @@
     "slug": "fruit-market",
     "repository": "https://github.com/MarcusUrani/Context-React",
     "body": {
-      "tech": {
+      "techs": {
         "1": {
+          "id": 1,
           "name": "React",
           "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
         },
         "2": {
+          "id": 2,
           "name": "StyledComponents",
           "image": "https://avatars.githubusercontent.com/u/20658825?s=200&v=4.png"
         },
         "3": {
+          "id": 3,
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }

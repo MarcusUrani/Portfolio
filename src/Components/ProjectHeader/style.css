@@ -35,6 +35,7 @@
   align-items: center;
   display: flex;
   gap: 1.5rem;
+  padding: 1rem 0;
 }
 
 .project__header__shadow--container__content__links__repo--link,
