@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useParams } from "react-router-dom";
 import projects from "../../Services/cards.json";
 import { useEffect } from "react";
-import GitHub from "../../img/github.png";
+import ProjectHeader from "../../Components/ProjectHeader";
 
 const Project = () => {
   const { slug } = useParams();
@@ -16,51 +16,7 @@ const Project = () => {
 
   return (
     <main className="project">
-      {item ? (
-        <section
-          className="project__header"
-          style={{
-            backgroundImage: `url(${item.image})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          <section className="project__header__shadow--container">
-            <article className="project__header__shadow--container__content">
-              <h3 className="title intern__title">{item.name}</h3>
-              <p className="project__header__shadow--container__content__description">
-                {item.shortDesc}
-              </p>
-              <nav className="project__header__shadow--container__content__links">
-                <a
-                  className="project__header__shadow--container__content__links__repo--link"
-                  target={"_blank"}
-                  rel="noreferrer"
-                  href={item.repository}
-                >
-                  <img
-                    src={GitHub}
-                    alt="GitHub logo"
-                    className="project__header__shadow--container__content__links__repo--link__logo"
-                  />
-                  Repositório
-                </a>
-                <a
-                  className="project__header__shadow--container__content__links__link"
-                  target={"_blank"}
-                  rel="noreferrer"
-                  href={item.link}
-                >
-                  Acessar projeto
-                </a>
-              </nav>
-            </article>
-          </section>
-        </section>
-      ) : (
-        <div>Loading...</div>
-      )}
+      {item ? <ProjectHeader project={item} /> : <div>Loading...</div>}
     </main>
   );
 };

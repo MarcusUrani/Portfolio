@@ -8,7 +8,23 @@
     "description": "Quiz feito em React, utilizando Material UI para a estilização de componentes, utilizando também a biblioteca axios para o consumo da API. A API Open Trivia Database utilizada para obtenção de perguntas e respostas. É possível selecionar a categoria e dificuldade das perguntas a serem exibidas, no final é exibido o placar.",
     "link": "https://appquizreact.netlify.app",
     "slug": "react-quiz",
-    "repository": "https://github.com/MarcusUrani/quiz-app"
+    "repository": "https://github.com/MarcusUrani/quiz-app",
+    "body": {
+      "tech": {
+        "react": {
+          "name": "React",
+          "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
+        },
+        "css": {
+          "name": "CSS",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        },
+        "material-ui": {
+          "name": "Material UI",
+          "image": "https://cdn.worldvectorlogo.com/logos/material-ui.svg"
+        }
+      }
+    }
   },
   {
     "id": 2,
@@ -19,7 +35,22 @@
     "description": "Página que simula um chat do Discord. Feito em Next Js, utilizando o supabase para simular o backend, possibilitando a troca de mensagens em tempo real e seu armazenamento em um banco de dados. Para acessar basta digitar um nome de usuário do github.",
     "link": "https://aluracord-one.vercel.app",
     "slug": "aluracord",
-    "repository": "https://github.com/MarcusUrani/aluracord"
+    "repository": "https://github.com/MarcusUrani/aluracord",
+    "body": {
+      "tech": {
+        "react": {
+          "name": "Next.Js",
+          "image": "https://cdn.icon-icons.com/icons2/2148/PNG/512/nextjs_icon_132160.png"
+        },
+        "css": {
+          "name": "SkynexUi"
+        },
+        "material-ui": {
+          "name": "Supabase",
+          "image": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png"
+        }
+      }
+    }
   },
   {
     "id": 3,
@@ -30,7 +61,23 @@
     "description": "Adicione seus filmes favoritos. Para usar basta digitar, no campo de busca, o nome do filme desejado, feito isso clique em pesquisar, uma lista será apresentada na tela, com os itens de nome similar, selecione o item desejado e ele será adicionado a tela inicial. Há também uma verificação de erros, caso o campo de busca esteja vazio ou o item selecionado já esteja na lista.",
     "link": "https://aluraflixx.netlify.app",
     "slug": "aluraflix",
-    "repository": "https://github.com/MarcusUrani/Aluraflix"
+    "repository": "https://github.com/MarcusUrani/Aluraflix",
+    "body": {
+      "tech": {
+        "react": {
+          "name": "HTML",
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
+        },
+        "css": {
+          "name": "CSS",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        },
+        "material-ui": {
+          "name": "JavaScript",
+          "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
+        }
+      }
+    }
   },
   {
     "id": 4,
@@ -41,7 +88,23 @@
     "description": "Projeto de uma pokédex, desenvolvido com a PokeAPI. Para utilizar basta acessar a página e selecionar a opção desejada, é possível escolher entre todos os Pokémons ou por geração. Enquanto ocorre a busca de dados e a montagem dos cards, há uma animação de carregamento. Cada card possui imagem, nome, altura, peso e tipo do Pokémon correspondente.",
     "link": "https://pokapp.netlify.app",
     "slug": "pokedex",
-    "repository": "https://github.com/MarcusUrani/PokeDex"
+    "repository": "https://github.com/MarcusUrani/PokeDex",
+    "body": {
+      "tech": {
+        "react": {
+          "name": "HTML",
+          "image": "https://cdn-icons-png.flaticon.com/512/919/919827.png"
+        },
+        "css": {
+          "name": "CSS",
+          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+        },
+        "material-ui": {
+          "name": "JavaScript",
+          "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
+        }
+      }
+    }
   },
   {
     "id": 5,
