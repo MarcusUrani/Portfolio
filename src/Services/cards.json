@@ -123,6 +123,7 @@
     "name": "Netflix Clone",
     "image": "https://imgur.com/xRLFYmD.png",
     "tech": "React | CSS | Material UI",
+    "shortDesc": "Clone da página inicial da Netflix, desenvolvido em React com os dados buscados da API do TheMovieDB. ",
     "description": "Clone da Netflix feito em React, utilizando a API do The movie DB para obtenção dos dados dos filmes e séries. Itens são adicionados dinamicamente a página, responsividade implementada para todos os aparelhos. Item em destaque se altera aleatoriamente sempre que a página é recarregada.",
     "link": "https://netflixrc.netlify.app",
     "slug": "netflix-clone",
