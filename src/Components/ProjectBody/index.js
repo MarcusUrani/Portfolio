@@ -13,6 +13,11 @@ const ProjectBody = ({ project, itemTechs }) => {
         <ul className="project__body__techs__list">
           {itemTechs.map((tech) => (
             <li className="project__body__techs__list__item" key={tech.id}>
+              <img
+                className="project__body__techs__list__item__img"
+                src={tech.image}
+                alt={tech.name}
+              />
               {tech.name}
             </li>
           ))}
