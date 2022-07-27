@@ -218,6 +218,7 @@
     "name": "App Clima",
     "image": "https://imgur.com/bWP9gT5.png",
     "tech": "HTML | CSS | JavaScript | OpenWeather API",
+    "shortDesc": "Página que são exibidos dados climáticos do local buscado, desenvolvido em HTML, CSS e JavaScript. Dados buscados da API OpenWeather.",
     "description": "Aplicação simples de clima, com o consumo da API do open weather para obtenção dos dados em tempo real. Para sua construção foi utilizado HTML, CSS e JavaScript. Para utilizar basta digitar o nome do local desejado e os dados aparecerão na tela.",
     "link": "https://climatual.netlify.app",
     "slug": "app-clima",
