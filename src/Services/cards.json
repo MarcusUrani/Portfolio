@@ -278,6 +278,7 @@
     "name": "Fruit Market",
     "image": "https://imgur.com/IMWnjNq.png",
     "tech": "React | Material UI | StyledComponents",
+    "shortDesc": "Página de compra de frutas, desenvolvido em React, utilizando ReactContext.",
     "description": "Aplicação de compras, utilizando React, material ui e StyledComponents para a estilização. Consiste em um site para compras de frutas e verduras, simulando uma feira. São realizados cálculos de saldo final, valor total, juros, dependendo da forma de pagamento.",
     "link": "https://feiraapp.netlify.app",
     "slug": "fruit-market",
