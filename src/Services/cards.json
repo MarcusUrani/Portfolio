@@ -34,7 +34,7 @@
     "name": "Aluracord",
     "image": "https://imgur.com/3cu4rgv.png",
     "tech": "Next Js | Skynexui | Supabase",
-    "shortDesc": "Página que simula um chato do discord, desenvolvido em Next Js.",
+    "shortDesc": "Página que simula um chat do discord, desenvolvido em Next Js.",
     "description": "Página que simula um chat do Discord. Feito em Next Js, utilizando o supabase para simular o backend, possibilitando a troca de mensagens em tempo real e seu armazenamento em um banco de dados. Para acessar basta digitar um nome de usuário do github.",
     "link": "https://aluracord-one.vercel.app",
     "slug": "aluracord",
@@ -153,6 +153,7 @@
     "name": "Página de evento",
     "image": "https://imgur.com/IJjBgt3.png",
     "tech": "React | TypeScript| TailwindCSS | GraphQL",
+    "shortDesc": "Página que simula "
     "description": "Página que simula o Ignite Lab da Rocketseat. React e TypeScript foram utilizados para o desenvolvimento da lógica e construção da página, para a estilização das páginas foi utilizado o TailwindCSS. Dados das aulas, armazenados em GraphCMS, foram consumidos utilizando o Apollo GraphQL.",
     "link": "https://ignite-lab-pro.vercel.app",
     "slug": "event-page",
