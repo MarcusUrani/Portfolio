@@ -248,6 +248,7 @@
     "name": "Tabela de Pontuação",
     "image": "https://imgur.com/riAZKUk.png",
     "tech": "HTML | CSS | JavaScript",
+    "shortDesc": "Página para gerenciamento de pontuação, sistema de pontos baseado no futebol. Desenvolvido em HTML, CSS e JavaScript.",
     "description": "Tabela de pontuação para organização de torneios ou campeonatos, projeto também desenvolvido na Imersão Dev da Alura. Critérios de pontos são os utilizados no futebol, com vitória valendo 3 pontos, empate 1 ponto e derrota 0. É possível adicionar vitória, empate e derrota, zerar pontos e remover participantes. Também é verificado se o número de vitórias, empates e derrotas é coerente com o número de participantes.",
     "link": "https://pontuacao.netlify.app",
     "slug": "points-table",
