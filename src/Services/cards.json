@@ -153,7 +153,7 @@
     "name": "Página de evento",
     "image": "https://imgur.com/IJjBgt3.png",
     "tech": "React | TypeScript| TailwindCSS | GraphQL",
-    "shortDesc": "Página que simula "
+    "shortDesc": "Página de evento com 5 aulas e 2 lives, desenvolvido em React e TypeScript. Dados criados em GraphCMS e buscados com Apollo GraphQl.",
     "description": "Página que simula o Ignite Lab da Rocketseat. React e TypeScript foram utilizados para o desenvolvimento da lógica e construção da página, para a estilização das páginas foi utilizado o TailwindCSS. Dados das aulas, armazenados em GraphCMS, foram consumidos utilizando o Apollo GraphQL.",
     "link": "https://ignite-lab-pro.vercel.app",
     "slug": "event-page",
@@ -188,6 +188,7 @@
     "name": "AluraGeek",
     "image": "https://imgur.com/p7UPJkt.png",
     "tech": "React | CSS | Material UI",
+    "shortDesc": "Página de administração e visualização de produtos, desenvolvido em React com os dados buscados da API hospedada no Heroku.",
     "description": "Protótipo de loja com seção de administrador, onde é possível gerenciar os produtos. Formulários de login, envio de mensagem e adicionar produtos são validados utilizando a biblioteca Formik. A estilização foi feita utilizando CSS e Material Ui. Produtos são listados buscando dados de uma API criada com Json server que está hospedada no Heroku.",
     "link": "https://alurageek.netlify.app",
     "slug": "alura-geek",
