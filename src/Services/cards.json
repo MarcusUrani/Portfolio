@@ -31,17 +31,17 @@
         "images": {
           "1": {
             "id": 1,
-            "title": "React Quiz",
+            "title": "React Quiz - Página inicial",
             "image": "https://imgur.com/Cc9T848.png"
           },
           "2": {
             "id": 2,
-            "title": "React Quiz",
+            "title": "React Quiz - Página de pergunta",
             "image": "https://imgur.com/KkBqbYZ.png"
           },
           "3": {
             "id": 3,
-            "title": "React Quiz",
+            "title": "React Quiz - Página de resultado",
             "image": "https://imgur.com/yJmqQly.png"
           }
         },
@@ -81,7 +81,7 @@
         "images": {
           "1": {
             "id": 1,
-            "title": "Aluracord",
+            "title": "Aluracord - Página inicial",
             "image": "https://imgur.com/jRuOdUh.png"
           }
         },
@@ -121,17 +121,17 @@
         "image": {
           "1": {
             "id": 1,
-            "title": "Aluraflix",
+            "title": "Aluraflix - Página inicial",
             "image": "https://imgur.com/6JG5dxi.png"
           },
           "2": {
             "id": 2,
-            "title": "Aluraflix",
+            "title": "Aluraflix - Pesquisa de filmes",
             "image": "https://imgur.com/2gDhQy8.png"
           },
           "3": {
             "id": 3,
-            "title": "Aluraflix",
+            "title": "Aluraflix - Lista de filmes escolhidos",
             "image": "https://imgur.com/KQP5F87.png"
           }
         },
@@ -313,7 +313,23 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/gNS0l43.png",
+        "image": {
+          "1": {
+            "id": 1,
+            "title": "AluraGeek - Página inicial",
+            "image": "https://imgur.com/gNS0l43.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "AluraGeek - Página de todos os produtos",
+            "image": "https://imgur.com/uC692z9.png"
+          },
+          "3": {
+            "id": 3,
+            "title": "AluraGeek - Página de administração",
+            "image": "https://imgur.com/PvwtYnz.png"
+          }
+        },
         "video": ""
       }
     }
