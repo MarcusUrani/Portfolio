@@ -31,20 +31,20 @@
 
 .about__contain {
   align-items: flex-end;
-  display: flex;
-}
-
-.about__github {
   color: var(--black);
+  display: flex;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  margin-left: 0.5rem;
   text-decoration: none;
   transition: color ease-in-out 0.2s;
 }
 
-.about__github:hover {
+.about__contain:hover {
   color: var(--dark-green);
+}
+
+.about__github {
+  margin-left: 0.5rem;
 }
 
 @media (max-width: 720px) {
