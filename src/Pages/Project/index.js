@@ -25,7 +25,7 @@ const Project = () => {
     const images = [];
     // eslint-disable-next-line
     Object.keys(item.body.assets.images).map((image) => {
-      images.push(item.body.assets[image]);
+      images.push(item.body.assets.images[image]);
       setItemImages(images);
     });
   };
@@ -35,6 +35,7 @@ const Project = () => {
     setItem(getProjectBySlug);
     if (item) {
       getItemTechs(item);
+      getItemImages(item);
     }
   }, [slug, item]);
 
@@ -43,7 +44,11 @@ const Project = () => {
       {item ? (
         <section>
           <ProjectHeader project={item} />
-          <ProjectBody project={item} itemTechs={itemTechs} />
+          <ProjectBody
+            project={item}
+            itemTechs={itemTechs}
+            itemImages={itemImages}
+          />
         </section>
       ) : (
         <div>Loading...</div>

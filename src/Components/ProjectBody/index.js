@@ -1,6 +1,6 @@
 import "./style.css";
 
-const ProjectBody = ({ project, itemTechs }) => {
+const ProjectBody = ({ project, itemTechs, itemImages }) => {
   return (
     <section className="project__body">
       <article className="project__body__content">
@@ -27,11 +27,14 @@ const ProjectBody = ({ project, itemTechs }) => {
         </ul>
         <section className="project__body__media">
           <h3 className="project__body__media">Imagens do projeto:</h3>
-          <img
-            src={project.body.assets.image}
-            alt={project.name}
-            title={project.name}
-          />
+          {itemImages.map((item) => (
+            <img
+              src={item.image}
+              alt={item.title}
+              title={item.title}
+              key={item.id}
+            />
+          ))}
         </section>
       </section>
     </section>
