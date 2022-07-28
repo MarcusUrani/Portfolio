@@ -78,7 +78,13 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/jRuOdUh.png",
+        "images": {
+          "1": {
+            "id": 1,
+            "title": "Aluracord",
+            "image": "https://imgur.com/jRuOdUh.png"
+          }
+        },
         "video": ""
       }
     }
@@ -112,7 +118,23 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/2gDhQy8.png",
+        "image": {
+          "1": {
+            "id": 1,
+            "title": "Aluraflix",
+            "image": "https://imgur.com/6JG5dxi.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "Aluraflix",
+            "image": "https://imgur.com/2gDhQy8.png"
+          },
+          "3": {
+            "id": 3,
+            "title": "Aluraflix",
+            "image": "https://imgur.com/KQP5F87.png"
+          }
+        },
         "video": ""
       }
     }
