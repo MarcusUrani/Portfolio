@@ -333,6 +333,11 @@
             "id": 4,
             "title": "AluraGeek - Página de cadastro de novo item",
             "image": "https://imgur.com/oAFbkZO.png"
+          },
+          "5": {
+            "id": 5,
+            "title": "AluraGeek - Página de edição de produto",
+            "image": "https://imgur.com/BGmQ9ec.png"
           }
         },
         "video": ""
