@@ -11,7 +11,7 @@ const Projects = () => {
         {cards.map((card) => (
           <div className="projects__card" key={card.id}>
             <figure className="card__img">
-              <img src={card.image} alt="Logo do projeto" />
+              <img src={card.image} alt="Logo do projeto" title={card.name} />
             </figure>
             <article className="card__texts">
               <h3 className="card__tech">{card.tech} </h3>
@@ -20,6 +20,7 @@ const Projects = () => {
               <Link
                 to={`/projects/${card.slug}`}
                 className="card__link"
+                title="Ver mais"
                 onClick={() => {
                   window.scroll({
                     top: 0,

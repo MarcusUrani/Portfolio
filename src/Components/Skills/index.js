@@ -7,15 +7,16 @@ const Skills = () => {
     <article className="about__container">
       <h2 className="title">Habilidades Técnicas e Ferramentas</h2>
       <ul className="about__list">
-        {skillList.map((skill) => {
+        {skillList.map((item) => {
           return (
-            <li className="about__item" key={skill.id}>
+            <li className="about__item" key={item.id}>
               <img
                 className="about__item__icon"
-                src={skill.icon}
+                src={item.icon}
                 alt="Ícone da ferramenta"
+                title={item.skill}
               />
-              {skill.skill}
+              {item.skill}
             </li>
           );
         })}

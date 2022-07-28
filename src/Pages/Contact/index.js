@@ -14,6 +14,7 @@ const Contact = () => {
             href={contact.href}
             target="_blank"
             rel="noreferrer"
+            title={contact.name}
           >
             <img src={contact.image} alt={contact.alt} />
             {contact.name}
