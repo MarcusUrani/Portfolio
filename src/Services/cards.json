@@ -168,7 +168,18 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/7wZUGHc.png",
+        "image": {
+          "1": {
+            "id": 1,
+            "title": "Pokedex",
+            "image": "https://imgur.com/7wZUGHc.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "Pokedex",
+            "image": "https://imgur.com/GwnfCWE.png"
+          }
+        },
         "video": ""
       }
     }
@@ -202,7 +213,18 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/kLtNgeP.png",
+        "image": {
+          "1": {
+            "id": 1,
+            "title": "Netflix Clone",
+            "image": "https://imgur.com/kLtNgeP.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "Netflix Clone",
+            "image": "https://imgur.com/D1EaCTO.png"
+          }
+        },
         "video": ""
       }
     }
@@ -241,7 +263,23 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/DKX9aet.png",
+        "image": {
+          "1": {
+            "id": 1,
+            "title": "Página de evento",
+            "image": "https://imgur.com/bOS5EHA.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "Página de evento",
+            "image": "https://imgur.com/D1EaCTO.png"
+          },
+          "3": {
+            "id": 3,
+            "title": "Página de evento",
+            "image": "https://imgur.com/DKX9aet.png"
+          }
+        },
         "video": ""
       }
     }
