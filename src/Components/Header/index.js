@@ -10,12 +10,15 @@ const Header = () => {
     <header className="header">
       <nav className="header__nav">
         <section className="header__container">
-          <h3 className="header__title">Marcus Urani</h3>
+          <h3 className="header__title" title="Marcus Urani">
+            Marcus Urani
+          </h3>
         </section>
         <article className="header__links">
           <Link
             to="/"
             className="header__link"
+            title="Home"
             onClick={() => {
               handleToTop();
             }}
@@ -25,6 +28,7 @@ const Header = () => {
           <Link
             to="/projects"
             className="header__link"
+            title="Projetos"
             onClick={() => {
               handleToTop();
             }}
@@ -34,6 +38,7 @@ const Header = () => {
           <Link
             to="/contact"
             className="header__link"
+            title="Contato"
             onClick={() => {
               handleToTop();
             }}

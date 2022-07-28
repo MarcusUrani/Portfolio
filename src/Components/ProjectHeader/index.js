@@ -23,12 +23,14 @@ const ProjectHeader = ({ project }) => {
               className="project__header__shadow--container__content__links__repo--link"
               target={"_blank"}
               rel="noreferrer"
+              title="Repositório do projeto"
               href={project.repository}
             >
               <img
                 src={GitHub}
                 alt="GitHub logo"
                 className="project__header__shadow--container__content__links__repo--link__logo"
+                title="Repositório do projeto"
               />
               Repositório
             </a>
@@ -37,6 +39,7 @@ const ProjectHeader = ({ project }) => {
               target={"_blank"}
               rel="noreferrer"
               href={project.link}
+              title="Acessar projeto"
             >
               Acessar projeto
             </a>

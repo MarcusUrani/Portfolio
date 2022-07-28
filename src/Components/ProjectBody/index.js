@@ -18,14 +18,21 @@ const ProjectBody = ({ project, itemTechs }) => {
                   className="project__body__techs__list__item__img"
                   src={tech.image}
                   alt={tech.name}
+                  title={tech.name}
                 />
               )}
               {tech.name}
             </li>
           ))}
         </ul>
-        <h3>Prints do projeto:</h3>
-        <img src={project.body.assets.image} alt={project.name} />
+        <section className="project__body__media">
+          <h3>Imagens do projeto:</h3>
+          <img
+            src={project.body.assets.image}
+            alt={project.name}
+            title={project.name}
+          />
+        </section>
       </section>
     </section>
   );
