@@ -17,28 +17,17 @@ const Projects = () => {
               <h3 className="card__tech">{card.tech} </h3>
               <h2 className="card__title">{card.name}</h2>
               <p className="card__description">{card.description}</p>
-              <nav className="card__links">
-                <a
-                  href={card.link}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="card__link"
-                >
-                  Visitar Página
-                </a>{" "}
-                |{" "}
-                <Link
-                  to={`/projects/${card.slug}`}
-                  className="card__link"
-                  onClick={() => {
-                    window.scroll({
-                      top: 0,
-                    });
-                  }}
-                >
-                  Ver mais
-                </Link>
-              </nav>
+              <Link
+                to={`/projects/${card.slug}`}
+                className="card__link"
+                onClick={() => {
+                  window.scroll({
+                    top: 0,
+                  });
+                }}
+              >
+                Ver mais
+              </Link>
             </article>
           </div>
         ))}
