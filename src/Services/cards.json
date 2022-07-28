@@ -28,7 +28,23 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/Cc9T848.png",
+        "images": {
+          "1": {
+            "id": 1,
+            "title": "React Quiz",
+            "image": "https://imgur.com/Cc9T848.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "React Quiz",
+            "image": "https://imgur.com/KkBqbYZ.png"
+          },
+          "3": {
+            "id": 3,
+            "title": "React Quiz",
+            "image": "https://imgur.com/yJmqQly.png"
+          }
+        },
         "video": ""
       }
     }

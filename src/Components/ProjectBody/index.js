@@ -26,7 +26,7 @@ const ProjectBody = ({ project, itemTechs }) => {
           ))}
         </ul>
         <section className="project__body__media">
-          <h3>Imagens do projeto:</h3>
+          <h3 className="project__body__media">Imagens do projeto:</h3>
           <img
             src={project.body.assets.image}
             alt={project.name}
