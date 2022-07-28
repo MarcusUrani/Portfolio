@@ -26,6 +26,10 @@
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -55,6 +59,10 @@
           "name": "Supabase",
           "image": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -85,6 +93,10 @@
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -115,6 +127,10 @@
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -145,6 +161,10 @@
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -180,6 +200,10 @@
           "name": "GraphQL",
           "image": "https://imgur.com/BhBbvTq.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -210,6 +234,10 @@
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -240,6 +268,10 @@
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   },
@@ -270,6 +302,10 @@
           "name": "JavaScript",
           "image": "https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png"
         }
+      },
+      "assets": {
+        "image": "https://imgur.com/u8LFkTu.png",
+        "video": ""
       }
     }
   },
@@ -300,6 +336,10 @@
           "name": "Material UI",
           "image": "https://mui.com/static/logo.png"
         }
+      },
+      "assets": {
+        "image": "",
+        "video": ""
       }
     }
   }
