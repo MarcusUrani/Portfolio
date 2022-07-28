@@ -171,12 +171,12 @@
         "image": {
           "1": {
             "id": 1,
-            "title": "Pokedex",
+            "title": "Pokedex - Página inicial",
             "image": "https://imgur.com/7wZUGHc.png"
           },
           "2": {
             "id": 2,
-            "title": "Pokedex",
+            "title": "Pokedex - Pokemons por geração",
             "image": "https://imgur.com/GwnfCWE.png"
           }
         },
@@ -216,12 +216,12 @@
         "image": {
           "1": {
             "id": 1,
-            "title": "Netflix Clone",
+            "title": "Netflix Clone - Banner principal",
             "image": "https://imgur.com/kLtNgeP.png"
           },
           "2": {
             "id": 2,
-            "title": "Netflix Clone",
+            "title": "Netflix Clone - Listas de filmes",
             "image": "https://imgur.com/D1EaCTO.png"
           }
         },
@@ -266,17 +266,17 @@
         "image": {
           "1": {
             "id": 1,
-            "title": "Página de evento",
+            "title": "Página de evento - Página de cadastro",
             "image": "https://imgur.com/bOS5EHA.png"
           },
           "2": {
             "id": 2,
-            "title": "Página de evento",
+            "title": "Página de evento - Página principal",
             "image": "https://imgur.com/D1EaCTO.png"
           },
           "3": {
             "id": 3,
-            "title": "Página de evento",
+            "title": "Página de evento - Página de aulas",
             "image": "https://imgur.com/DKX9aet.png"
           }
         },
@@ -363,7 +363,23 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/o5k4qst.png",
+        "image": {
+          "1": {
+            "id": 1,
+            "title": "App Clima - Clima de Brasília",
+            "image": "https://imgur.com/o5k4qst.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "App Clima - Clima de São Paulo",
+            "image": "https://imgur.com/EWxTpG3.png"
+          },
+          "3": {
+            "id": 3,
+            "title": "App Clima - Clima de Londres",
+            "image": "https://imgur.com/3tnOzUf.png"
+          }
+        },
         "video": ""
       }
     }
@@ -397,7 +413,13 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/u8LFkTu.png",
+        "image": {
+          "1": {
+            "id": 1,
+            "title": "Tabela de Pontuação - Tabela de pontuação com 2 jogadores",
+            "image": "https://imgur.com/u8LFkTu.png"
+          }
+        },
         "video": ""
       }
     }
@@ -431,7 +453,25 @@
         }
       },
       "assets": {
-        "image": "https://imgur.com/9C8UUDF.png",
+        "image": {
+          "1": {
+            "1": {
+              "id": 1,
+              "title": "Fruit Market - Página de início",
+              "image": "https://imgur.com/ObiQvIi.png"
+            },
+            "2": {
+              "id": 2,
+              "title": "Fruit Market - Página de seleção de itens",
+              "image": "https://imgur.com/i6MHLp6.png"
+            },
+            "3": {
+              "id": 3,
+              "title": "Fruit Market - Página de conclusão de compra",
+              "image": "https://imgur.com/9C8UUDF.png"
+            }
+          }
+        },
         "video": ""
       }
     }
