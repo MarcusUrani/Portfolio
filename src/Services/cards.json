@@ -118,7 +118,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "id": 1,
             "title": "Aluraflix - Página inicial",
@@ -168,7 +168,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "id": 1,
             "title": "Pokedex - Página inicial",
@@ -213,7 +213,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "id": 1,
             "title": "Netflix Clone - Banner principal",
@@ -263,7 +263,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "id": 1,
             "title": "Página de evento - Página de cadastro",
@@ -313,7 +313,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "id": 1,
             "title": "AluraGeek - Página inicial",
@@ -363,7 +363,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "id": 1,
             "title": "App Clima - Clima de Brasília",
@@ -413,7 +413,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "id": 1,
             "title": "Tabela de Pontuação - Tabela de pontuação com 2 jogadores",
@@ -453,7 +453,7 @@
         }
       },
       "assets": {
-        "image": {
+        "images": {
           "1": {
             "1": {
               "id": 1,

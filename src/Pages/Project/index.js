@@ -10,6 +10,7 @@ const Project = () => {
   const { slug } = useParams();
   const [item, setItem] = useState(null);
   const [itemTechs, setItemTechs] = useState([]);
+  const [itemImages, setItemImages] = useState([]);
 
   const getItemTechs = (item) => {
     const techs = [];
@@ -17,6 +18,15 @@ const Project = () => {
     Object.keys(item.body.techs).map((tech) => {
       techs.push(item.body.techs[tech]);
       setItemTechs(techs);
+    });
+  };
+
+  const getItemImages = (item) => {
+    const images = [];
+    // eslint-disable-next-line
+    Object.keys(item.body.assets.images).map((image) => {
+      images.push(item.body.assets[image]);
+      setItemImages(images);
     });
   };
 
