@@ -272,7 +272,7 @@
           "2": {
             "id": 2,
             "title": "Página de evento - Página principal",
-            "image": "https://imgur.com/D1EaCTO.png"
+            "image": "https://imgur.com/bAhetMm.png"
           },
           "3": {
             "id": 3,
@@ -328,6 +328,11 @@
             "id": 3,
             "title": "AluraGeek - Página de administração",
             "image": "https://imgur.com/PvwtYnz.png"
+          },
+          "4": {
+            "id": 4,
+            "title": "AluraGeek - Página de cadastro de novo item",
+            "image": "https://imgur.com/oAFbkZO.png"
           }
         },
         "video": ""
@@ -455,21 +460,19 @@
       "assets": {
         "images": {
           "1": {
-            "1": {
-              "id": 1,
-              "title": "Fruit Market - Página de início",
-              "image": "https://imgur.com/ObiQvIi.png"
-            },
-            "2": {
-              "id": 2,
-              "title": "Fruit Market - Página de seleção de itens",
-              "image": "https://imgur.com/i6MHLp6.png"
-            },
-            "3": {
-              "id": 3,
-              "title": "Fruit Market - Página de conclusão de compra",
-              "image": "https://imgur.com/9C8UUDF.png"
-            }
+            "id": 1,
+            "title": "Fruit Market - Página de início",
+            "image": "https://imgur.com/ObiQvIi.png"
+          },
+          "2": {
+            "id": 2,
+            "title": "Fruit Market - Página de seleção de itens",
+            "image": "https://imgur.com/i6MHLp6.png"
+          },
+          "3": {
+            "id": 3,
+            "title": "Fruit Market - Página de conclusão de compra",
+            "image": "https://imgur.com/9C8UUDF.png"
           }
         },
         "video": ""
