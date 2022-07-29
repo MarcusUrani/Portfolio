@@ -1,4 +1,5 @@
 import "./style.css";
+import { DefaultUi, Player, Youtube } from "@vime/react";
 
 const ProjectBody = ({ project, itemTechs, itemImages }) => {
   return (
@@ -42,6 +43,10 @@ const ProjectBody = ({ project, itemTechs, itemImages }) => {
       </section>
       <section className="project__body__development">
         <h3 className="project__body__development__title">Vídeo:</h3>
+        <Player>
+          <Youtube />
+          <DefaultUi />
+        </Player>
       </section>
     </section>
   );
