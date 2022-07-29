@@ -25,20 +25,20 @@ const ProjectBody = ({ project, itemTechs, itemImages }) => {
             </li>
           ))}
         </ul>
-        <section className="project__body__media">
-          <h3 className="project__body__media__title">Imagens do projeto:</h3>
-          <figure className="project__body__media__container">
-            {itemImages.map((item) => (
-              <img
-                className="project__body__media__container__image"
-                src={item.image}
-                alt={item.title}
-                title={item.title}
-                key={item.id}
-              />
-            ))}
-          </figure>
-        </section>
+      </section>
+      <section className="project__body__media">
+        <h3 className="project__body__media__title">Imagens do projeto:</h3>
+        <figure className="project__body__media__container">
+          {itemImages.map((item) => (
+            <img
+              className="project__body__media__container__image"
+              src={item.image}
+              alt={item.title}
+              title={item.title}
+              key={item.id}
+            />
+          ))}
+        </figure>
       </section>
     </section>
   );
