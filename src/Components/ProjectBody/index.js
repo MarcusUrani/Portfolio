@@ -26,9 +26,10 @@ const ProjectBody = ({ project, itemTechs, itemImages }) => {
           ))}
         </ul>
         <section className="project__body__media">
-          <h3 className="project__body__media">Imagens do projeto:</h3>
+          <h3 className="project__body__media__title">Imagens do projeto:</h3>
           {itemImages.map((item) => (
             <img
+              className="project__body__media__image"
               src={item.image}
               alt={item.title}
               title={item.title}
