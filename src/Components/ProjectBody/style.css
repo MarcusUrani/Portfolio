@@ -12,10 +12,11 @@
   padding: 2rem 0;
 }
 
-.project__body__techs__title {
+.project__body__techs__title,
+.project__body__media__title {
   font-size: 1.5rem;
   font-weight: bold;
-  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .project__body__techs__list {
@@ -36,4 +37,11 @@
 
 .project__body__techs__list__item__img {
   width: 2.5rem;
+}
+
+.project__body__media {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
 }
