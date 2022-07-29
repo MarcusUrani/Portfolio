@@ -40,6 +40,9 @@ const ProjectBody = ({ project, itemTechs, itemImages }) => {
           ))}
         </figure>
       </section>
+      <section className="project__body__development">
+        <h3 className="project__body__development__title">Desenvolvimento:</h3>
+      </section>
     </section>
   );
 };
