@@ -2,9 +2,8 @@
   color: var(--black);
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  margin-bottom: 6rem;
-  margin-top: 4rem;
-  padding: 0 7rem;
+  margin: 4rem auto 6rem auto;
+  width: 80%;
 }
 
 .about__list {

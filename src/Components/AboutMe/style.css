@@ -1,17 +1,17 @@
 .about__me {
-    color: var(--black);
-    font-family: "Poppins", sans-serif;
-    margin: 4rem 0;
-    padding: 0 7rem;
+  color: var(--black);
+  font-family: "Poppins", sans-serif;
+  margin: 4rem auto;
+  width: 80%;
 }
 
 .about__me__text {
-    font-size: 1.2rem;
-    margin-bottom: 1.3rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.3rem;
 }
 
-@media(max-width: 680px) {
-    .about__me {
-        padding: 0 3rem;
-    }
+@media (max-width: 680px) {
+  .about__me {
+    padding: 0 3rem;
+  }
 }
