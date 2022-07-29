@@ -1,5 +1,6 @@
 import "./style.css";
 import { DefaultUi, Player, Youtube } from "@vime/react";
+import "@vime/core/themes/default.css";
 
 const ProjectBody = ({ project, itemTechs, itemImages }) => {
   return (
@@ -45,7 +46,7 @@ const ProjectBody = ({ project, itemTechs, itemImages }) => {
         <section className="project__body__video">
           <h3 className="project__body__video__title">Vídeo:</h3>
           <Player>
-            <Youtube />
+            <Youtube videoId={project.body.assets.video} cookies={true} />
             <DefaultUi />
           </Player>
         </section>
