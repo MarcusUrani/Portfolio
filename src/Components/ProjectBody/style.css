@@ -13,7 +13,8 @@
 }
 
 .project__body__techs__title,
-.project__body__media__title {
+.project__body__media__title,
+.project__body__video__title {
   font-size: 1.5rem;
   font-weight: bold;
   margin-bottom: 1.5rem;

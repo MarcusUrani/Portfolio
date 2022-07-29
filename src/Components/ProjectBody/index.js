@@ -45,7 +45,11 @@ const ProjectBody = ({ project, itemTechs, itemImages }) => {
       {project.body.assets.video && (
         <section className="project__body__video">
           <h3 className="project__body__video__title">Vídeo:</h3>
-          <Player>
+          <Player
+            style={{
+              cursor: "pointer",
+            }}
+          >
             <Youtube videoId={project.body.assets.video} cookies={true} />
             <DefaultUi />
           </Player>
