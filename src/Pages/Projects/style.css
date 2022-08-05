@@ -2,7 +2,6 @@
   font-family: "Poppins", sans-serif;
   margin: 0 auto;
   padding: 8rem 0 4rem 0;
-  text-align: center;
   width: 80%;
 }
 
@@ -32,10 +31,8 @@
 .projects__card {
   align-items: center;
   border-radius: 1.2rem;
-  border-width: 7px;
-  border-style: solid;
-  border-color: var(--dark-green);
-  box-shadow: 3px 3px 15px 4px rgba(0, 173, 58, 0.3);
+  border: 7px solid var(--dark-green);
+  box-shadow: 10px 10px 15px 4px rgba(0, 173, 58, 0.3);
   display: flex;
   justify-content: center;
   text-align: left;
