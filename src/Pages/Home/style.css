@@ -52,9 +52,7 @@
 @media (max-width: 720px) {
   .about__info {
     justify-content: center;
-    padding-top: 8rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    width: 90%;
   }
 
   .about__photo {
