@@ -39,7 +39,7 @@
 @media (max-width: 680px) {
   .contact {
     height: 93.7vh;
-    margin: 0 25%;
-    width: 50%;
+    margin: 0 auto;
+    width: 70%;
   }
 }
