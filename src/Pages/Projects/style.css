@@ -93,8 +93,7 @@
 
 @media (max-width: 1060px) {
   .projects {
-    padding-right: 0.7rem;
-    padding-left: 0.7rem;
+    width: 90%;
   }
 
   .projects__card {
