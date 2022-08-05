@@ -1,7 +1,9 @@
 .projects {
   font-family: "Poppins", sans-serif;
-  padding: 8rem 7rem 4rem 7rem;
+  margin: 0 auto;
+  padding: 8rem 0 4rem 0;
   text-align: center;
+  width: 80%;
 }
 
 .projects h1 {
