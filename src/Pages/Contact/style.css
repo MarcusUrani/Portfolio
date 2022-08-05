@@ -18,10 +18,8 @@
 
 .contact__item {
   align-items: center;
-  border-color: var(--green);
+  border: var(--green) solid 1px;
   border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
   box-shadow: 10px 5px 15px 4px #7d7d7d;
   color: var(--black);
   display: flex;
@@ -29,11 +27,11 @@
   margin: 1rem 0;
   padding: 0.7rem;
   text-decoration: none;
+  transition: all ease 0.5s;
 }
 
 .contact__item:hover {
   background: var(--green);
-  transition: all ease 0.5s;
 }
 
 @media (max-width: 680px) {
