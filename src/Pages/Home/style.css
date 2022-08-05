@@ -4,7 +4,9 @@
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
-  padding: 5.65rem 7rem 0 7rem;
+  margin: 0 auto;
+  padding-top: 5.65rem;
+  width: 80%;
 }
 
 .about__photo {
