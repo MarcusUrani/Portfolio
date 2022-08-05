@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import ProjectHeader from "../../Components/ProjectHeader";
 import ProjectBody from "../../Components/ProjectBody";
 
-const Project = () => {
+const ProjectPage = () => {
   const { slug } = useParams();
   const [item, setItem] = useState(null);
   const [itemTechs, setItemTechs] = useState([]);
@@ -57,4 +57,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default ProjectPage;
