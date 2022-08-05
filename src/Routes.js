@@ -4,7 +4,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Home from "./Pages/Home";
 import Projects from "./Pages/Projects";
 import Contact from "./Pages/Contact";
-import Project from "./Pages/Project";
+import ProjectPage from "./Pages/ProjectPage";
 
 export default function Routes() {
   let location = useLocation();
@@ -17,7 +17,7 @@ export default function Routes() {
             <Route exact path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/projects/:slug" element={<Project />} />
+            <Route path="/projects/:slug" element={<ProjectPage />} />
           </Switch>
         </CSSTransition>
       </TransitionGroup>
