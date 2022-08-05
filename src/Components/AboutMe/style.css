@@ -12,6 +12,6 @@
 
 @media (max-width: 680px) {
   .about__me {
-    padding: 0 3rem;
+    width: 90%;
   }
 }
