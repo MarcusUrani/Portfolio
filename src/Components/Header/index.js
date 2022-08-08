@@ -19,7 +19,7 @@ const Header = () => {
         <article className="header__links">
           <Link
             to="/"
-            className="header__link"
+            className={`header__link ${params.slug === "/" ? "active" : ""}`}
             title="Home"
             onClick={() => {
               handleToTop();
