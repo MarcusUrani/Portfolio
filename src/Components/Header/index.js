@@ -1,11 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "./style.css";
 
 const Header = () => {
+  const params = useParams();
   const handleToTop = () => {
     window.scrollTo(0, 0);
   };
+
   return (
     <header className="header">
       <nav className="header__nav">
