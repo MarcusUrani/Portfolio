@@ -3,11 +3,9 @@ import { Link, useParams } from "react-router-dom";
 import "./style.css";
 
 const Header = () => {
-  const params = useParams();
   const handleToTop = () => {
     window.scrollTo(0, 0);
   };
-
   return (
     <header className="header">
       <nav className="header__nav">
@@ -19,7 +17,7 @@ const Header = () => {
         <article className="header__links">
           <Link
             to="/"
-            className={`header__link ${params.slug === "/" ? "active" : ""}`}
+            className={`header__link `}
             title="Home"
             onClick={() => {
               handleToTop();
@@ -29,7 +27,7 @@ const Header = () => {
           </Link>
           <Link
             to="/projects"
-            className="header__link"
+            className={`header__link `}
             title="Projetos"
             onClick={() => {
               handleToTop();
@@ -39,7 +37,7 @@ const Header = () => {
           </Link>
           <Link
             to="/contact"
-            className="header__link"
+            className={`header__link `}
             title="Contato"
             onClick={() => {
               handleToTop();
