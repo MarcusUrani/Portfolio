@@ -67,19 +67,6 @@
   visibility: visible;
 }
 
-.active:before {
-  background-color: var(--dark-green);
-  bottom: 0;
-  content: "";
-  height: 2px;
-  left: 0;
-  position: absolute;
-  transform: scaleX(1);
-  transition: all 0.3s ease;
-  visibility: visible;
-  width: 100%;
-}
-
 @media (max-width: 680px) {
   .header {
     width: 100%;
