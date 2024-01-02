@@ -20,6 +20,15 @@ const ProjectHeader = ({ project }) => {
           </p>
           <nav className="project__header__shadow--container__content__links">
             <a
+              className="project__header__shadow--container__content__links__link"
+              target={"_blank"}
+              rel="noreferrer"
+              href={project.link}
+              title="Acessar projeto"
+            >
+              Acessar projeto
+            </a>
+            <a
               className="project__header__shadow--container__content__links__repo--link"
               target={"_blank"}
               rel="noreferrer"
@@ -33,15 +42,6 @@ const ProjectHeader = ({ project }) => {
                 title="Repositório do projeto"
               />
               Repositório
-            </a>
-            <a
-              className="project__header__shadow--container__content__links__link"
-              target={"_blank"}
-              rel="noreferrer"
-              href={project.link}
-              title="Acessar projeto"
-            >
-              Acessar projeto
             </a>
           </nav>
         </article>

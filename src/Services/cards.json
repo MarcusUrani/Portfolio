@@ -51,46 +51,6 @@
   },
   {
     "id": 2,
-    "name": "Aluracord",
-    "image": "https://imgur.com/3cu4rgv.png",
-    "tech": "Next Js | Skynexui | Supabase",
-    "shortDesc": "Página que simula um chat do discord, desenvolvido em Next Js.",
-    "description": "Página que simula um chat do Discord. Feito em Next Js, utilizando o supabase para simular o backend, possibilitando a troca de mensagens em tempo real e seu armazenamento em um banco de dados. Para acessar basta digitar um nome de usuário do github.",
-    "link": "https://aluracord-one.vercel.app",
-    "slug": "aluracord",
-    "repository": "https://github.com/MarcusUrani/aluracord",
-    "body": {
-      "techs": {
-        "1": {
-          "id": 1,
-          "name": "Next.Js",
-          "image": "https://ui-lib.com/blog/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png"
-        },
-        "2": {
-          "id": 2,
-          "name": "SkynexUi",
-          "image": "https://imgur.com/sNLKtAn.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Supabase",
-          "image": "https://seeklogo.com/images/S/supabase-logo-DCC676FFE2-seeklogo.com.png"
-        }
-      },
-      "assets": {
-        "images": {
-          "1": {
-            "id": 1,
-            "title": "Aluracord - Página inicial",
-            "image": "https://imgur.com/jRuOdUh.png"
-          }
-        },
-        "video": "P6TMikFMSFM"
-      }
-    }
-  },
-  {
-    "id": 3,
     "name": "Aluraflix",
     "image": "https://imgur.com/zcIBJlE.png",
     "tech": "HTML | CSS | JavaScript",
@@ -140,7 +100,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "PokéDex",
     "image": "https://imgur.com/aV4rGWg.png",
     "tech": "HTML | CSS | JavaScript | PokeAPI",
@@ -185,7 +145,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Netflix Clone",
     "image": "https://imgur.com/xRLFYmD.png",
     "tech": "React | CSS | Material UI",
@@ -230,62 +190,7 @@
     }
   },
   {
-    "id": 6,
-    "name": "Página de evento",
-    "image": "https://imgur.com/IJjBgt3.png",
-    "tech": "React | TypeScript| TailwindCSS | GraphQL",
-    "shortDesc": "Página de evento com 5 aulas e 2 lives, desenvolvido em React e TypeScript. Dados criados em GraphCMS e buscados com Apollo GraphQl.",
-    "description": "Página que simula o Ignite Lab da Rocketseat. React e TypeScript foram utilizados para o desenvolvimento da lógica e construção da página, para a estilização das páginas foi utilizado o TailwindCSS. Dados das aulas, armazenados em GraphCMS, foram consumidos utilizando o Apollo GraphQL.",
-    "link": "https://ignite-lab-pro.vercel.app",
-    "slug": "event-page",
-    "repository": "https://github.com/MarcusUrani/IgniteLab",
-    "body": {
-      "techs": {
-        "1": {
-          "id": 1,
-          "name": "React",
-          "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
-        },
-        "2": {
-          "id": 2,
-          "name": "TypeScript",
-          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968381.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "TailwindCSS",
-          "image": "https://progsoft.net/images/tailwind-css-icon-70187f0341bd945dc65ad050a9a1b8f4fd79b1cf.png"
-        },
-        "4": {
-          "id": 4,
-          "name": "GraphQL",
-          "image": "https://imgur.com/BhBbvTq.png"
-        }
-      },
-      "assets": {
-        "images": {
-          "1": {
-            "id": 1,
-            "title": "Página de evento - Página de cadastro",
-            "image": "https://imgur.com/bOS5EHA.png"
-          },
-          "2": {
-            "id": 2,
-            "title": "Página de evento - Página principal",
-            "image": "https://imgur.com/bAhetMm.png"
-          },
-          "3": {
-            "id": 3,
-            "title": "Página de evento - Página de aulas",
-            "image": "https://imgur.com/DKX9aet.png"
-          }
-        },
-        "video": "XRHgX2IRtnM"
-      }
-    }
-  },
-  {
-    "id": 7,
+    "id": 5,
     "name": "AluraGeek",
     "image": "https://imgur.com/p7UPJkt.png",
     "tech": "React | CSS | Material UI",
@@ -345,7 +250,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 6,
     "name": "App Clima",
     "image": "https://imgur.com/bWP9gT5.png",
     "tech": "HTML | CSS | JavaScript | OpenWeather API",
@@ -395,7 +300,7 @@
     }
   },
   {
-    "id": 9,
+    "id": 7,
     "name": "Tabela de Pontuação",
     "image": "https://imgur.com/riAZKUk.png",
     "tech": "HTML | CSS | JavaScript",
@@ -435,7 +340,7 @@
     }
   },
   {
-    "id": 10,
+    "id": 8,
     "name": "Fruit Market",
     "image": "https://imgur.com/IMWnjNq.png",
     "tech": "React | Material UI | StyledComponents",
