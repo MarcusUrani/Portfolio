@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import Profile from "../../img/eu.jfif";
+import Profile from "../../img/eu.jpeg";
 import Github from "../../img/github.png";
 import AboutMe from "../../Components/AboutMe";
 import Skills from "../../Components/Skills";
