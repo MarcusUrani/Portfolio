@@ -191,66 +191,6 @@
   },
   {
     "id": 5,
-    "name": "AluraGeek",
-    "image": "https://imgur.com/p7UPJkt.png",
-    "tech": "React | CSS | Material UI",
-    "shortDesc": "Página de administração e visualização de produtos, desenvolvido em React com os dados buscados da API hospedada no Heroku.",
-    "description": "Protótipo de loja com seção de administrador, onde é possível gerenciar os produtos. Formulários de login, envio de mensagem e adicionar produtos são validados utilizando a biblioteca Formik. A estilização foi feita utilizando CSS e Material Ui. Produtos são listados buscando dados de uma API criada com Json server que está hospedada no Heroku.",
-    "link": "https://alurageek.netlify.app",
-    "slug": "alura-geek",
-    "repository": "https://github.com/MarcusUrani/alurachallenge",
-    "body": {
-      "techs": {
-        "1": {
-          "id": 1,
-          "name": "React",
-          "image": "https://icon-library.com/images/react-icon/react-icon-29.jpg"
-        },
-        "2": {
-          "id": 2,
-          "name": "CSS",
-          "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
-        },
-        "3": {
-          "id": 3,
-          "name": "Material UI",
-          "image": "https://mui.com/static/logo.png"
-        }
-      },
-      "assets": {
-        "images": {
-          "1": {
-            "id": 1,
-            "title": "AluraGeek - Página inicial",
-            "image": "https://imgur.com/gNS0l43.png"
-          },
-          "2": {
-            "id": 2,
-            "title": "AluraGeek - Página de todos os produtos",
-            "image": "https://imgur.com/uC692z9.png"
-          },
-          "3": {
-            "id": 3,
-            "title": "AluraGeek - Página de administração",
-            "image": "https://imgur.com/PvwtYnz.png"
-          },
-          "4": {
-            "id": 4,
-            "title": "AluraGeek - Página de cadastro de novo item",
-            "image": "https://imgur.com/oAFbkZO.png"
-          },
-          "5": {
-            "id": 5,
-            "title": "AluraGeek - Página de edição de produto",
-            "image": "https://imgur.com/BGmQ9ec.png"
-          }
-        },
-        "video": "kv8CFua2Gmg"
-      }
-    }
-  },
-  {
-    "id": 6,
     "name": "App Clima",
     "image": "https://imgur.com/bWP9gT5.png",
     "tech": "HTML | CSS | JavaScript | OpenWeather API",
@@ -300,7 +240,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 6,
     "name": "Tabela de Pontuação",
     "image": "https://imgur.com/riAZKUk.png",
     "tech": "HTML | CSS | JavaScript",
@@ -340,7 +280,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 7,
     "name": "Fruit Market",
     "image": "https://imgur.com/IMWnjNq.png",
     "tech": "React | Material UI | StyledComponents",
